@@ -1,8 +1,9 @@
 import oetopologytools
 
-l1 = "c1c(O)c(O)c(Cl)cc1CCCBr"
-l2 = "c1cc(O)c(O)cc1CCN"
-ligands = [l1,l2]
+l1 = "51-61-6"                 # Dopamine: smiles "c1cc(O)c(O)cc1CCN"
+l2 = "37491-68-2"              # 3,4-Dihydroxybenzylamine
+l3 = "2494-12-4"               # N-Acetyldopamine
+ligands = [l1,l2,l3]
 
 dualtop = oetopologytools.DualTopology(ligands)
 dualtop.createDualTopology()

@@ -2,15 +2,16 @@ import openeye.oechem as oechem
 import numpy as np
 import gaff2xml.openeye
 import os
+from trustbutverify import cirpy
 
 class DualTopology(object):
     """
     Intended to aid in the creation of dual topologies and corresponding forcefields
 
     Constructor:
-      DualTopology(smiles_strings) 
+      DualTopology(cas_or_aa, min_atoms=6) 
         Arguments:
-          smiles_strings (list of strings) molecules in smiles format to combine into dual topology
+          cas_or_aa (list of strings) molecules identified by cas number, or amino acid by name to combine into dual topology
         Optional:
           min_atoms (int) the minimum number of common atoms to constitute a substructure match (default: 6)
 
@@ -25,29 +26,43 @@ class DualTopology(object):
             How to create ffxml
                 - what structure should the ffxml have
                 - logistically how can it be done
+            DONE - CHANGED TO CAS FOR NOW: Input type needs to be changed - smiles won't work for amino acids, e.g.
+                - Also self.title desperately needs to be changed (the example doesn't have corresponding cas no.)
+                - but do amino acids have cas numbers?
+                - could either use cas, if amino acids have them and just change the example ligands, or
+                - use something else to create an OEMol and just take list of OEMols directly
+            Should the ffxml itself be changed, or something else (for instance this object, other) have the titratable 
+                information and send it over to openmm
+            Fix the generation of .xml - shouldn't be doing that readlines nonsense (it's there now because antechamber tries
+                to correct atom types based on what they're bonded to)
+            Investigate how this all works with amino acids and their dangling bonds
 
     Requires:
       openeye.oechem
       gaff2xml
+      trustbutverify.cirpy
     """
 
-    def __init__(self, smiles_strings, min_atoms=6):
+    def __init__(self, cas_or_aa, min_atoms=6):
         """
-        Initialize using smiles
-        Requires gaff2xml.openeye
+        Initialize using cas numbers OR amino acid name
+        Requires gaff2xml.openeye and trustbutverify.cirpy
 
         Arguments
-            cas_numbers (list of strings)
+            cas_or_aa (list of strings) either cas number or name of amino acid
             min_atoms (int) - a minimum number of atoms for substructure match (default: 6)
         """
 
-        self.smiles_strings = smiles_strings
+        self.cas_or_aa = cas_or_aa
+        self.smiles_strings = []
         self.ligands = []
-        for smiles in smiles_strings:
+        for cas in cas_or_aa:
+            smiles = cirpy.resolve(cas,'smiles')
+            self.smiles_strings.append(smiles)
             ligand = gaff2xml.openeye.smiles_to_oemol(smiles)
             ligand = gaff2xml.openeye.get_charges(ligand) # will the Hs mess things up?
             self.ligands.append(ligand)
-        self.title = self.ligands[0].GetTitle()+"_and_analogs" # NOOOOO
+        self.title = self.cas_or_aa[0]+"_and_analogs"
         self.min_atoms = min_atoms
         self.common_substructure = None
         self.dual_topology = None
