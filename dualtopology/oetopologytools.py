@@ -50,6 +50,8 @@ class DualTopology(object):
 
         Arguments
             cas_or_aa (list of strings) either cas number or name of amino acid
+
+        Optional Arguments
             min_atoms (int) - a minimum number of atoms for substructure match (default: 6)
         """
 
@@ -60,7 +62,7 @@ class DualTopology(object):
             smiles = cirpy.resolve(cas,'smiles')
             self.smiles_strings.append(smiles)
             ligand = gaff2xml.openeye.smiles_to_oemol(smiles)
-            ligand = gaff2xml.openeye.get_charges(ligand) # will the Hs mess things up?
+            ligand = gaff2xml.openeye.get_charges(ligand, strictStereo=False) 
             self.ligands.append(ligand)
         self.title = self.cas_or_aa[0]+"_and_analogs"
         self.min_atoms = min_atoms
@@ -71,18 +73,15 @@ class DualTopology(object):
         self.pdb_filename = None
 
     def determineCommonSubstructure(self):
-        """Find a common substructure shared by all ligands.
+        """
+        Find a common substructure shared by all ligands.
 
         The atom type name strings and integer bond types are used to obtain an exact match.
 
-        ARGUMENTS
-          ligands (list of OEMol) - the set of ligands for which the common substructure is to be determined.
+        Will not run if self.common_substructure is not None
 
-        OPTIONAL ARGUMENTS
-          min_atoms (int) - minimum number of atoms for substructure match (default: 6)
-
-        RETURN VALUES
-          common_substructure (OEMol) - a molecule fragment representing the common substructure
+        Arguments
+          (none)
         """
         if self.common_substructure is not None:
             return
@@ -119,6 +118,7 @@ class DualTopology(object):
                     if atom not in matched_atoms:
                         common_substructure.DeleteAtom(atom)
 
+                print(common_substructure.NumAtoms())
                 # we only need to consider one match
                 break
     
@@ -126,16 +126,15 @@ class DualTopology(object):
         self.common_substructure = common_substructure
 
     def createDualTopology(self):
-        """Create a dual topology combining all ligands into one OEMol sharing as many atoms as possible.
+        """
+        Create a dual topology combining all ligands into one OEMol sharing as many atoms as possible.
     
         The atom type name strings and integer bond types are used to obtain an exact match.
-    
-        ARGUMENTS
-          ligands (list of OEMol) - the set of ligands for which the dual topology is to be created.
 
-        OPTIONAL ARGUMENTS
-          min_atoms (int) - minimum number of atoms for substructure match (default: 6)
+        Will not run if self.dual_topology is not None.
 
+        Arguments:
+          (none)
         """
 
         if self.dual_topology is not None:
@@ -214,6 +213,8 @@ class DualTopology(object):
         Arguments:
           pdb_filename (optional) the name of the pdb file to save to
           ffxml_filename (optional) the name of the xml file to save to
+
+        Will not overwrite an existing ffxml file with the same file name.
 
         Requires mdtraj and antechamber
         """
