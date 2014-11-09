@@ -118,7 +118,6 @@ class DualTopology(object):
                     if atom not in matched_atoms:
                         common_substructure.DeleteAtom(atom)
 
-                print(common_substructure.NumAtoms())
                 # we only need to consider one match
                 break
     
