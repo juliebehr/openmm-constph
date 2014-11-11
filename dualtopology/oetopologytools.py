@@ -257,6 +257,7 @@ class DualTopology(object):
             outfile.write(ffxml.read())
             outfile.close()
             ffxml.seek(0)
+        self.ffxml = ffxml
         traj.save_pdb(pdb_filename)
 
     def _run_antechamber(self, file_prefix, gaff_mol2_SUB, charge_method=None):
