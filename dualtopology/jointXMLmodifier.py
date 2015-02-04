@@ -122,7 +122,7 @@ class XMLmodifier(object):
         # did this need to be enumerated?
             if i == 0:
                 continue
-            print("custom forces for molecule "+str(i))
+            print("Creating custom forces for molecule "+str(i))
             start_index = start_end_indices[0]
             end_index = start_end_indices[1]+1
 
@@ -136,7 +136,6 @@ class XMLmodifier(object):
             #self.customnonbondedforce(scale_factor, molecule_atom_indices)
 
     def customangleforce(self, scale_factor, molecule_atom_indices):
-        print("making new angles")
         angleforce = self.angleforce
         root = self.root
         save_index_to_class = self.save_index_to_class
@@ -157,7 +156,6 @@ class XMLmodifier(object):
         for atom1 in self.all_bonds.keys():
             if atom1 not in molecule_atom_indices:
                 continue
-            print("finding angles with atom "+str(atom1))
             newclass1 = save_index_to_class[atom1]
             oldclass1 = save_real_classes[newclass1]
             for atom2 in self.all_bonds[atom1]:
@@ -190,14 +188,12 @@ class XMLmodifier(object):
                         angleforce.append(newangle)
                     else:
                         # add to custom_angle_force
-                        print("custom angle force entry made!")
                         custom_angle_force.append(newangle)
 
         angleforce.addprevious(custom_angle_force)
 
 
     def customtorsionforce(self, scale_factor, molecule_atom_indices):
-        print("making new torsions")
         torsionforce = self.torsionforce
         root = self.root
         save_index_to_class = self.save_index_to_class
@@ -219,7 +215,6 @@ class XMLmodifier(object):
         for atom1 in self.all_bonds.keys():
             if atom1 not in molecule_atom_indices:
                 continue
-            print("finding dihedrals with atom "+str(atom1))
             newclass1 = save_index_to_class[atom1]
             oldclass1 = save_real_classes[newclass1]
             for atom2 in self.all_bonds[atom1]:
@@ -264,7 +259,6 @@ class XMLmodifier(object):
                             torsionforce.append(newdihedral)
                         else:
                             # add to custom_torsion_force
-                            print("custom torsion entry made!")
                             custom_torsion_force.append(newdihedral)
 
         torsionforce.addprevious(custom_torsion_force)
