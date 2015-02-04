@@ -1,10 +1,10 @@
-import oetopologytools
+import dualtopology
 
 l1 = "Glycine"
 l2 = "Lysine"
 ligands = [l1,l2]
 
-dualtop = oetopologytools.DualTopology(ligands)
+dualtop = dualtopology.DualTopology(ligands)
 dualtop.createDualTopology()
 
 print("Atoms in dual topology:")

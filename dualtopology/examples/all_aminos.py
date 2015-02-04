@@ -1,4 +1,4 @@
-import oetopologytools
+import dualtopology
 
 ligands = []
 ligands.append("Glycine")
@@ -21,7 +21,7 @@ ligands.append("Histidine")
 ligands.append("Aspartic Acid")  # Cirpy will remove Hs with the name "Aspartate"
 ligands.append("Glutamic Acid")
 
-dualtop = oetopologytools.DualTopology(ligands)
+dualtop = dualtopology.DualTopology(ligands)
 dualtop.createDualTopology()
 
 print("Atom indeces from each substructure:")
