@@ -25,6 +25,7 @@ class XMLmodifier(object):
             elif element.tag == 'NonbondedForce':
                 self.nonbonded = element
 
+        print("Parsed ffxml file")
         self.fixatomtypes()
         self.addbondforces()
         self.addcustomforces()
@@ -34,6 +35,7 @@ class XMLmodifier(object):
 
 
     def fixatomtypes(self):
+        print("Saving real atom class references")
         atomtypes = self.atomtypes
         each_molecule_N = self.each_molecule_N
         # make each_molecule_N a dictionary mapping from the index of an atom in the dual
@@ -57,6 +59,7 @@ class XMLmodifier(object):
 
         # modify the atom class of atoms unique to certain ligands 
         # COMPLETE
+        print("Renaming atom classes")
         for i, atom in enumerate(list(atomtypes)):
             # atoms in the substructure do not change and therefore don't need
             # to be customized
@@ -75,6 +78,7 @@ class XMLmodifier(object):
 
 
     def addbondforces(self):
+        "Recreating bond forces for new atom classes"
         root = self.root
         residues = self.residues
         save_index_to_class = self.save_index_to_class
@@ -111,6 +115,7 @@ class XMLmodifier(object):
         # did this need to be enumerated?
             if i == 0:
                 continue
+            print("custom forces for molecule "+str(i))
             start_index = start_end_indices[0]
             end_index = start_end_indices[1]+1
 
@@ -124,6 +129,7 @@ class XMLmodifier(object):
             #self.customnonbondedforce(scale_factor, molecule_atom_indices)
 
     def customangleforce(self, scale_factor, molecule_atom_indices):
+        print("making new angles")
         angleforce = self.angleforce
         root = self.root
         save_index_to_class = self.save_index_to_class
@@ -143,6 +149,7 @@ class XMLmodifier(object):
         custom_angle_force.insert(0,scale)
 
         for atom1 in molecule_atom_indices:
+            print("finding angles with atom "+str(atom1))
             newclass1 = save_index_to_class[atom1]
             oldclass1 = save_real_classes[newclass1]
             for atom2 in molecule_atom_indices:
@@ -173,12 +180,14 @@ class XMLmodifier(object):
                         angle.addnext(newangle)
                     else:
                         # add to custom_angle_force
+                        print("custom angle force entry made!")
                         custom_angle_force.append(newangle)
 
         angleforce.addprevious(custom_angle_force)
 
 
     def customtorsionforce(self, scale_factor, molecule_atom_indices):
+        print("making new torsions")
         torsionforce = self.torsionforce
         root = self.root
         save_index_to_class = self.save_index_to_class
@@ -199,6 +208,7 @@ class XMLmodifier(object):
         custom_torsion_force.insert(0,phase) 
 
         for atom1 in molecule_atom_indices:
+            print("finding dihedrals with atom "+str(atom1))
             newclass1 = save_index_to_class[atom1]
             oldclass1 = save_real_classes[newclass1]
             for atom2 in molecule_atom_indices:
@@ -239,6 +249,7 @@ class XMLmodifier(object):
                             dihedral.addnext(newdihedral)
                         else:
                             # add to custom_torsion_force
+                            print("custom torsion entry made!")
                             custom_torsion_force.append(newdihedral)
 
         torsionforce.addprevious(custom_torsion_force)
