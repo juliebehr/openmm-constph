@@ -33,7 +33,6 @@ class XMLmodifier(Object):
         self.tree.write(new_filename)
 
 
-
     def fixatomtypes(self):
         atomtypes = self.atomtypes
         each_molecule_N = self.each_molecule_N
@@ -169,7 +168,7 @@ class XMLmodifier(Object):
                     if newclass1 != oldclass1 and newclass2 != oldclass2 and newclass3 != oldclass3:
                         # add to regular angleforce
                         angle.addnext(newangle)
-                    else
+                    else:
                         # add to custom_angle_force
                         custom_angle_force.append(newbond)
 
@@ -178,13 +177,65 @@ class XMLmodifier(Object):
 
     def customtorsionforce(self, scale_factor, molecule_atom_indices):
         torsionforce = self.torsionforce
+        save_index_to_class = self.save_index_to_class
+        save_real_classes = self.save_real_classes
 
         # create the custom torsion
         custom_torsion_force = copy.deepcopy(torsionforce)
         custom_torsion_force.tag = 'CustomTorsionForce'
         custom_torsion_force.attrib['energy'] = scale_factor+"*k*(1+cos(periodicity*theta-phase))"
 
+        # add subelements for the parameters
+        # CURRENTLY UNSURE ABOUT THE MULTIPLE SETS OF PARAMETERS ISSUE
+        k = custom_torsion_force.makeelement('PerAngleParameter',attrib={'name':"k"})
+        custom_torsion_force.insert(0,k)
+        periodicity = custom_torsion_force.makeelement('PerAngleParameter',attrib={'name':"periodicity"})
+        custom_torsion_force.insert(0,periodicity)
+        phase = custom_torsion_force.makeelement('PerAngleParameter',attrib={'name':"phase"})
+        custom_torsion_force.insert(0,phase) 
 
+        for atom1 in molecule_atom_indices:
+            newclass1 = save_index_to_class[atom1]
+            oldclass1 = save_real_classes[newclass1]
+            for atom2 in molecule_atom_indices:
+                if atom2 == atom1:
+                    continue
+                newclass2 = save_index_to_class[atom2]
+                oldclass2 = save_real_classes[newclass2]
+                for atom3 in molecule_atom_indices:
+                    if atom3 == atom1 or atom3 == atom2:
+                        continue
+                    newclass3 = save_index_to_class[atom3]
+                    oldclass3 = save_real_classes[newclass3]
+                    for atom4 in molecule_atom_indices:
+                        if atom4 == atom1 or atom4 == atom2 or atom4 == atom3:
+                            continue
+                        newclass4 = save_index_to_class[atom4]
+                        oldclass4 = save_real_classes[newclass4]
+                        if newclass1 == oldclass1 and newclass2 == oldclass2 and newclass3 == oldclass3 and newclass4 == oldclass4:
+                            continue
+                        # find the parameters for the original three atom classes
+                        dihedral = root.xpath(u'//Proper[@class1=\'%s\'][@class2=\'%s\'][@class3=\'%s\'][@class4=\'%s\']' %(oldclass1, oldclass2, oldclass3, oldclass4))
+                        if dihedral == []:
+                            dihedral = root.xpath(u'//Proper[@class1=\'%s\'][@class2=\'%s\'][@class3=\'%s\'][@class4=\'%s\']' %(oldclass4, oldclass3, oldclass2, oldclass1))
+                        if dihedral == []:
+                            dihedral = root.xpath(u'//Improper[@class1=\'%s\'][@class2=\'%s\'][@class3=\'%s\'][@class4=\'%s\']' %(oldclass1, oldclass2, oldclass3, oldclass4))
+                        if dihedral == []:
+                            dihedral = root.xpath(u'//Imroper[@class1=\'%s\'][@class2=\'%s\'][@class3=\'%s\'][@class4=\'%s\']' %(oldclass4, oldclass3, oldclass2, oldclass1))
+                        if dihedral == []:
+                            continue
+                        dihedral = dihedral[0]
+                        newdihedral = copy.deepcopy(dihedral)
+                        newdihedral.attrib['class1'] = newclass1
+                        newdihedral.attrib['class2'] = newclass2
+                        newdihedral.attrib['class3'] = newclass3
+                        newdihedral.attrib['class4'] = newclass4
+                        if newclass1 != oldclass1 and newclass2 != oldclass2 and newclass3 != oldclass3 and newclass 4 != oldclass4:
+                            # add to regular torsionforce
+                            dihedral.addnext(newdihedral)
+                        else:
+                            # add to custom_torsion_force
+                            custom_torsion_force.append(newdihedral)
 
         torsionforce.addprevious(custom_torsion_force)
 
