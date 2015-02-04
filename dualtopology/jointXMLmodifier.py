@@ -61,7 +61,7 @@ class XMLmodifier(object):
             # atoms in the substructure do not change and therefore don't need
             # to be customized
             real_class_name = atom.attrib['class']
-            if i > substructure_length:
+            if i > self.substructure_length:
                 molecule_id = str(molecule_id_of_atom[i])
                 modified_class_name = real_class_name+'_'+molecule_id
                 atom.attrib['class'] = modified_class_name
@@ -85,8 +85,8 @@ class XMLmodifier(object):
         for residue in list(residues):
             for element in list(residue):
                 if element.tag == 'Bond':
-                    atom1 = element.values()[0]
-                    atom2 = element.values()[1]
+                    atom1 = int(element.values()[0])
+                    atom2 = int(element.values()[1])
                     newclass1 = save_index_to_class[atom1]
                     newclass2 = save_index_to_class[atom2]
                     oldclass1 = save_real_classes[newclass1]
@@ -125,6 +125,7 @@ class XMLmodifier(object):
 
     def customangleforce(self, scale_factor, molecule_atom_indices):
         angleforce = self.angleforce
+        root = self.root
         save_index_to_class = self.save_index_to_class
         save_real_classes = self.save_real_classes
 
@@ -172,13 +173,14 @@ class XMLmodifier(object):
                         angle.addnext(newangle)
                     else:
                         # add to custom_angle_force
-                        custom_angle_force.append(newbond)
+                        custom_angle_force.append(newangle)
 
         angleforce.addprevious(custom_angle_force)
 
 
     def customtorsionforce(self, scale_factor, molecule_atom_indices):
         torsionforce = self.torsionforce
+        root = self.root
         save_index_to_class = self.save_index_to_class
         save_real_classes = self.save_real_classes
 
@@ -245,6 +247,7 @@ class XMLmodifier(object):
 
     def customnonbondedforce(self, scale_factor, molecule_atom_indices):
         nonbonded = self.nonbonded
+        root = self.root
 
         # create the custom nonbonded force element
         custom_nonbonded_force = copy.deepcopy(nonbonded)
@@ -253,7 +256,7 @@ class XMLmodifier(object):
 
         # assuming the energy expression gets in there right this is g2g:
         for idx, nonbonded_particle in enumerate(list(custom_nonbonded_force)):
-            if idx > substructure_length:
+            if idx > self.substructure_length:
                 if idx not in range(start_index, end_index):
                     custom_nonbonded_force.remove(nonbonded_particle)
         nonbonded.addprevious(custom_nonbonded_force)
