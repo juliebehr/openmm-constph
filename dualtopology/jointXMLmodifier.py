@@ -119,7 +119,9 @@ class XMLmodifier(object):
             scale_factor = "lambda"+str(i)
             self.customangleforce(scale_factor, molecule_atom_indices)
             self.customtorsionforce(scale_factor, molecule_atom_indices)
-            self.customnonbondedforce(scale_factor, molecule_atom_indices)
+
+            # TO DO: ADD CUSTOM NONBONDED FORCE CAPABILITY
+            #self.customnonbondedforce(scale_factor, molecule_atom_indices)
 
     def customangleforce(self, scale_factor, molecule_atom_indices):
         angleforce = self.angleforce
