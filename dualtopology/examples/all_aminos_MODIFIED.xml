@@ -710,8 +710,7 @@
   <Bond class1="c2" class2="hx" length="0.1083" k="292963.68"/>
   <Bond class1="c2" class2="i" length="0.2153" k="186773.76"/>
   <Bond class1="c2" class2="n1" length="0.1306" k="456892.8"/>
-  <Bond class1="c2" class2="n2" length="0.1288" k="486264.48"/><Bond class1="c2_16" class2="n2_16" length="0.1288" k="486264.48"/>
-  
+  <Bond class1="c2" class2="n2" length="0.1288" k="486264.48"/>
   <Bond class1="c2" class2="n3" length="0.134" k="406935.84"/>
   <Bond class1="c2" class2="n" length="0.1407" k="326770.4"/>
   <Bond class1="c2" class2="n4" length="0.1482" k="258654.88"/>
@@ -720,8 +719,7 @@
   <Bond class1="c2" class2="nd" length="0.1313" k="446014.4"/>
   <Bond class1="c2" class2="ne" length="0.128" k="500155.36"/>
   <Bond class1="c2" class2="nf" length="0.128" k="500155.36"/>
-  <Bond class1="c2" class2="nh" length="0.1355" k="387103.68"/><Bond class1="c2_16" class2="nh_16" length="0.1355" k="387103.68"/><Bond class1="c2_16" class2="nh_16" length="0.1355" k="387103.68"/>
-  
+  <Bond class1="c2" class2="nh" length="0.1355" k="387103.68"/>
   <Bond class1="c2" class2="no" length="0.14457" k="289198.08"/>
   <Bond class1="c2" class2="o" length="0.12244" k="521828.48"/>
   <Bond class1="c2" class2="oh" length="0.1333" k="355974.72"/>
@@ -738,15 +736,11 @@
   <Bond class1="c2" class2="s6" length="0.176" k="220245.76"/>
   <Bond class1="c2" class2="sh" length="0.17771" k="210873.6"/>
   <Bond class1="c2" class2="ss" length="0.1736" k="234304.0"/>
-  <Bond class1="c3" class2="c3" length="0.1535" k="253634.08"/><Bond class1="c3_19" class2="c3_19" length="0.1535" k="253634.08"/><Bond class1="c3_16" class2="c3_16" length="0.1535" k="253634.08"/><Bond class1="c3_16" class2="c3_16" length="0.1535" k="253634.08"/><Bond class1="c3_15" class2="c3_15" length="0.1535" k="253634.08"/><Bond class1="c3_13" class2="c3_13" length="0.1535" k="253634.08"/><Bond class1="c3_11" class2="c3_11" length="0.1535" k="253634.08"/><Bond class1="c3_6" class2="c3_6" length="0.1535" k="253634.08"/><Bond class1="c3_6" class2="c3_6" length="0.1535" k="253634.08"/><Bond class1="c3_6" class2="c3_6" length="0.1535" k="253634.08"/><Bond class1="c3_5" class2="c3_5" length="0.1535" k="253634.08"/><Bond class1="c3_5" class2="c3_5" length="0.1535" k="253634.08"/><Bond class1="c3_5" class2="c3_5" length="0.1535" k="253634.08"/><Bond class1="c3_4" class2="c3_4" length="0.1535" k="253634.08"/><Bond class1="c3_4" class2="c3_4" length="0.1535" k="253634.08"/><Bond class1="c3_2" class2="c3_2" length="0.1535" k="253634.08"/><Bond class1="c3_2" class2="c3_2" length="0.1535" k="253634.08"/><Bond class1="c3_2" class2="c3_2" length="0.1535" k="253634.08"/>
-  
-  <Bond class1="c3" class2="ca" length="0.1513" k="270704.8"/><Bond class1="ca_8" class2="c3_8" length="0.1513" k="270704.8"/><Bond class1="ca_7" class2="c3_7" length="0.1513" k="270704.8"/>
-  
+  <Bond class1="c3" class2="c3" length="0.1535" k="253634.08"/>
+  <Bond class1="c3" class2="ca" length="0.1513" k="270704.8"/>
   <Bond class1="c3" class2="cc" length="0.1499" k="282252.64"/>
-  <Bond class1="c3" class2="cd" length="0.1499" k="282252.64"/><Bond class1="cd_17" class2="c3_17" length="0.1499" k="282252.64"/><Bond class1="cd_9" class2="c3_9" length="0.1499" k="282252.64"/>
-  
-  <Bond class1="c3" class2="ce" length="0.1505" k="277231.84"/><Bond class1="ce" class2="c3_19" length="0.1505" k="277231.84"/><Bond class1="ce" class2="c3_18" length="0.1505" k="277231.84"/><Bond class1="ce" class2="c3_17" length="0.1505" k="277231.84"/><Bond class1="ce" class2="c3_16" length="0.1505" k="277231.84"/><Bond class1="ce" class2="c3_15" length="0.1505" k="277231.84"/><Bond class1="ce" class2="c3_14" length="0.1505" k="277231.84"/><Bond class1="ce" class2="c3_13" length="0.1505" k="277231.84"/><Bond class1="ce" class2="c3_12" length="0.1505" k="277231.84"/><Bond class1="ce" class2="c3_11" length="0.1505" k="277231.84"/><Bond class1="ce" class2="c3_10" length="0.1505" k="277231.84"/><Bond class1="ce" class2="c3_9" length="0.1505" k="277231.84"/><Bond class1="ce" class2="c3_8" length="0.1505" k="277231.84"/><Bond class1="ce" class2="c3_7" length="0.1505" k="277231.84"/><Bond class1="ce" class2="c3_6" length="0.1505" k="277231.84"/><Bond class1="ce" class2="c3_5" length="0.1505" k="277231.84"/><Bond class1="ce" class2="c3_4" length="0.1505" k="277231.84"/><Bond class1="ce" class2="c3_3" length="0.1505" k="277231.84"/><Bond class1="ce" class2="c3_2" length="0.1505" k="277231.84"/>
-  
+  <Bond class1="c3" class2="cd" length="0.1499" k="282252.64"/>
+  <Bond class1="c3" class2="ce" length="0.1505" k="277231.84"/>
   <Bond class1="c3" class2="cf" length="0.1505" k="277231.84"/>
   <Bond class1="c3" class2="cl" length="0.1786" k="233467.2"/>
   <Bond class1="c3" class2="cu" length="0.1478" k="300745.92"/>
@@ -754,29 +748,24 @@
   <Bond class1="c3" class2="cx" length="0.1514" k="269868.0"/>
   <Bond class1="c3" class2="cy" length="0.1529" k="258152.8"/>
   <Bond class1="c3" class2="f" length="0.1344" k="304427.84"/>
-  <Bond class1="c3" class2="h1" length="0.1093" k="281081.12"/><Bond class1="c3_16" class2="h1_16" length="0.1093" k="281081.12"/><Bond class1="c3_16" class2="h1_16" length="0.1093" k="281081.12"/><Bond class1="c3_13" class2="h1_13" length="0.1093" k="281081.12"/><Bond class1="c3_13" class2="h1_13" length="0.1093" k="281081.12"/><Bond class1="c3_13" class2="h1_13" length="0.1093" k="281081.12"/><Bond class1="c3_13" class2="h1_13" length="0.1093" k="281081.12"/><Bond class1="c3_13" class2="h1_13" length="0.1093" k="281081.12"/><Bond class1="c3_12" class2="h1_12" length="0.1093" k="281081.12"/><Bond class1="c3_12" class2="h1_12" length="0.1093" k="281081.12"/><Bond class1="c3_11" class2="h1_11" length="0.1093" k="281081.12"/><Bond class1="c3_10" class2="h1_10" length="0.1093" k="281081.12"/><Bond class1="c3_10" class2="h1_10" length="0.1093" k="281081.12"/><Bond class1="c3_2" class2="h1_2" length="0.1093" k="281081.12"/><Bond class1="c3_2" class2="h1_2" length="0.1093" k="281081.12"/>
-  
+  <Bond class1="c3" class2="h1" length="0.1093" k="281081.12"/>
   <Bond class1="c3" class2="h2" length="0.11" k="273131.52"/>
   <Bond class1="c3" class2="h3" length="0.10948" k="278989.12"/>
-  <Bond class1="c3" class2="hc" length="0.1092" k="282252.64"/><Bond class1="c3_19" class2="hc_19" length="0.1092" k="282252.64"/><Bond class1="c3_19" class2="hc_19" length="0.1092" k="282252.64"/><Bond class1="c3_19" class2="hc_19" length="0.1092" k="282252.64"/><Bond class1="c3_19" class2="hc_19" length="0.1092" k="282252.64"/><Bond class1="c3_18" class2="hc_18" length="0.1092" k="282252.64"/><Bond class1="c3_18" class2="hc_18" length="0.1092" k="282252.64"/><Bond class1="c3_17" class2="hc_17" length="0.1092" k="282252.64"/><Bond class1="c3_17" class2="hc_17" length="0.1092" k="282252.64"/><Bond class1="c3_16" class2="hc_16" length="0.1092" k="282252.64"/><Bond class1="c3_16" class2="hc_16" length="0.1092" k="282252.64"/><Bond class1="c3_16" class2="hc_16" length="0.1092" k="282252.64"/><Bond class1="c3_16" class2="hc_16" length="0.1092" k="282252.64"/><Bond class1="c3_15" class2="hc_15" length="0.1092" k="282252.64"/><Bond class1="c3_15" class2="hc_15" length="0.1092" k="282252.64"/><Bond class1="c3_15" class2="hc_15" length="0.1092" k="282252.64"/><Bond class1="c3_15" class2="hc_15" length="0.1092" k="282252.64"/><Bond class1="c3_14" class2="hc_14" length="0.1092" k="282252.64"/><Bond class1="c3_14" class2="hc_14" length="0.1092" k="282252.64"/><Bond class1="c3_13" class2="hc_13" length="0.1092" k="282252.64"/><Bond class1="c3_13" class2="hc_13" length="0.1092" k="282252.64"/><Bond class1="c3_11" class2="hc_11" length="0.1092" k="282252.64"/><Bond class1="c3_11" class2="hc_11" length="0.1092" k="282252.64"/><Bond class1="c3_11" class2="hc_11" length="0.1092" k="282252.64"/><Bond class1="c3_9" class2="hc_9" length="0.1092" k="282252.64"/><Bond class1="c3_9" class2="hc_9" length="0.1092" k="282252.64"/><Bond class1="c3_8" class2="hc_8" length="0.1092" k="282252.64"/><Bond class1="c3_8" class2="hc_8" length="0.1092" k="282252.64"/><Bond class1="c3_7" class2="hc_7" length="0.1092" k="282252.64"/><Bond class1="c3_7" class2="hc_7" length="0.1092" k="282252.64"/><Bond class1="c3_6" class2="hc_6" length="0.1092" k="282252.64"/><Bond class1="c3_6" class2="hc_6" length="0.1092" k="282252.64"/><Bond class1="c3_6" class2="hc_6" length="0.1092" k="282252.64"/><Bond class1="c3_6" class2="hc_6" length="0.1092" k="282252.64"/><Bond class1="c3_6" class2="hc_6" length="0.1092" k="282252.64"/><Bond class1="c3_6" class2="hc_6" length="0.1092" k="282252.64"/><Bond class1="c3_6" class2="hc_6" length="0.1092" k="282252.64"/><Bond class1="c3_6" class2="hc_6" length="0.1092" k="282252.64"/><Bond class1="c3_6" class2="hc_6" length="0.1092" k="282252.64"/><Bond class1="c3_5" class2="hc_5" length="0.1092" k="282252.64"/><Bond class1="c3_5" class2="hc_5" length="0.1092" k="282252.64"/><Bond class1="c3_5" class2="hc_5" length="0.1092" k="282252.64"/><Bond class1="c3_5" class2="hc_5" length="0.1092" k="282252.64"/><Bond class1="c3_5" class2="hc_5" length="0.1092" k="282252.64"/><Bond class1="c3_5" class2="hc_5" length="0.1092" k="282252.64"/><Bond class1="c3_5" class2="hc_5" length="0.1092" k="282252.64"/><Bond class1="c3_5" class2="hc_5" length="0.1092" k="282252.64"/><Bond class1="c3_5" class2="hc_5" length="0.1092" k="282252.64"/><Bond class1="c3_4" class2="hc_4" length="0.1092" k="282252.64"/><Bond class1="c3_4" class2="hc_4" length="0.1092" k="282252.64"/><Bond class1="c3_4" class2="hc_4" length="0.1092" k="282252.64"/><Bond class1="c3_4" class2="hc_4" length="0.1092" k="282252.64"/><Bond class1="c3_4" class2="hc_4" length="0.1092" k="282252.64"/><Bond class1="c3_4" class2="hc_4" length="0.1092" k="282252.64"/><Bond class1="c3_4" class2="hc_4" length="0.1092" k="282252.64"/><Bond class1="c3_3" class2="hc_3" length="0.1092" k="282252.64"/><Bond class1="c3_3" class2="hc_3" length="0.1092" k="282252.64"/><Bond class1="c3_3" class2="hc_3" length="0.1092" k="282252.64"/><Bond class1="c3_2" class2="hc_2" length="0.1092" k="282252.64"/><Bond class1="c3_2" class2="hc_2" length="0.1092" k="282252.64"/><Bond class1="c3_2" class2="hc_2" length="0.1092" k="282252.64"/><Bond class1="c3_2" class2="hc_2" length="0.1092" k="282252.64"/><Bond class1="c3_2" class2="hc_2" length="0.1092" k="282252.64"/><Bond class1="c3_2" class2="hc_2" length="0.1092" k="282252.64"/>
-  
+  <Bond class1="c3" class2="hc" length="0.1092" k="282252.64"/>
   <Bond class1="c3" class2="hx" length="0.1091" k="283424.16"/>
   <Bond class1="c3" class2="i" length="0.2162" k="183342.88"/>
   <Bond class1="c3" class2="n1" length="0.147" k="272043.68"/>
   <Bond class1="c3" class2="n2" length="0.1477" k="262587.84"/>
   <Bond class1="c3" class2="n" length="0.146" k="276646.08"/>
-  <Bond class1="c3" class2="n3" length="0.147" k="268278.08"/><Bond class1="c3_2" class2="n3_2" length="0.147" k="268278.08"/>
-  
+  <Bond class1="c3" class2="n3" length="0.147" k="268278.08"/>
   <Bond class1="c3" class2="n4" length="0.1499" k="245684.48"/>
   <Bond class1="c3" class2="na" length="0.1456" k="280076.96"/>
   <Bond class1="c3" class2="nc" length="0.1456" k="280076.96"/>
   <Bond class1="c3" class2="nd" length="0.1456" k="280076.96"/>
-  <Bond class1="c3" class2="nh" length="0.1458" k="278403.36"/><Bond class1="c3_16" class2="nh_16" length="0.1458" k="278403.36"/>
-  
+  <Bond class1="c3" class2="nh" length="0.1458" k="278403.36"/>
   <Bond class1="c3" class2="no" length="0.1533" k="222086.72"/>
   <Bond class1="c3" class2="o" length="0.13165" k="376476.32"/>
-  <Bond class1="c3" class2="oh" length="0.1426" k="262838.88"/><Bond class1="c3_11" class2="oh_11" length="0.1426" k="262838.88"/><Bond class1="c3_10" class2="oh_10" length="0.1426" k="262838.88"/>
-  
+  <Bond class1="c3" class2="oh" length="0.1426" k="262838.88"/>
   <Bond class1="c3" class2="os" length="0.1439" k="252295.2"/>
   <Bond class1="c3" class2="p2" length="0.1855" k="196062.24"/>
   <Bond class1="c3" class2="p3" length="0.1844" k="201334.08"/>
@@ -787,17 +776,13 @@
   <Bond class1="c3" class2="s" length="0.1845" k="178154.72"/>
   <Bond class1="c3" class2="s4" length="0.1807" k="195643.84"/>
   <Bond class1="c3" class2="s6" length="0.1774" k="212547.2"/>
-  <Bond class1="c3" class2="sh" length="0.1822" k="188531.04"/><Bond class1="c3_12" class2="sh_12" length="0.1822" k="188531.04"/>
-  
-  <Bond class1="c3" class2="ss" length="0.1821" k="188949.44"/><Bond class1="c3_13" class2="ss_13" length="0.1821" k="188949.44"/><Bond class1="c3_13" class2="ss_13" length="0.1821" k="188949.44"/>
-  
+  <Bond class1="c3" class2="sh" length="0.1822" k="188531.04"/>
+  <Bond class1="c3" class2="ss" length="0.1821" k="188949.44"/>
   <Bond class1="c3" class2="sx" length="0.1809" k="194639.68"/>
   <Bond class1="c3" class2="sy" length="0.1782" k="208279.52"/>
-  <Bond class1="ca" class2="ca" length="0.1387" k="400325.12"/><Bond class1="ca_9" class2="ca_9" length="0.1387" k="400325.12"/><Bond class1="ca_9" class2="ca_9" length="0.1387" k="400325.12"/><Bond class1="ca_9" class2="ca_9" length="0.1387" k="400325.12"/><Bond class1="ca_9" class2="ca_9" length="0.1387" k="400325.12"/><Bond class1="ca_9" class2="ca_9" length="0.1387" k="400325.12"/><Bond class1="ca_9" class2="ca_9" length="0.1387" k="400325.12"/><Bond class1="ca_8" class2="ca_8" length="0.1387" k="400325.12"/><Bond class1="ca_8" class2="ca_8" length="0.1387" k="400325.12"/><Bond class1="ca_8" class2="ca_8" length="0.1387" k="400325.12"/><Bond class1="ca_8" class2="ca_8" length="0.1387" k="400325.12"/><Bond class1="ca_8" class2="ca_8" length="0.1387" k="400325.12"/><Bond class1="ca_8" class2="ca_8" length="0.1387" k="400325.12"/><Bond class1="ca_7" class2="ca_7" length="0.1387" k="400325.12"/><Bond class1="ca_7" class2="ca_7" length="0.1387" k="400325.12"/><Bond class1="ca_7" class2="ca_7" length="0.1387" k="400325.12"/><Bond class1="ca_7" class2="ca_7" length="0.1387" k="400325.12"/><Bond class1="ca_7" class2="ca_7" length="0.1387" k="400325.12"/><Bond class1="ca_7" class2="ca_7" length="0.1387" k="400325.12"/>
-  
+  <Bond class1="ca" class2="ca" length="0.1387" k="400325.12"/>
   <Bond class1="ca" class2="cc" length="0.1434" k="344510.56"/>
-  <Bond class1="ca" class2="cd" length="0.1434" k="344510.56"/><Bond class1="ca_9" class2="cd_9" length="0.1434" k="344510.56"/>
-  
+  <Bond class1="ca" class2="cd" length="0.1434" k="344510.56"/>
   <Bond class1="ca" class2="ce" length="0.1472" k="306268.8"/>
   <Bond class1="ca" class2="cf" length="0.1472" k="306268.8"/>
   <Bond class1="ca" class2="cg" length="0.1438" k="340242.88"/>
@@ -810,15 +795,13 @@
   <Bond class1="ca" class2="f" length="0.1344" k="304427.84"/>
   <Bond class1="ca" class2="h4" length="0.1088" k="286938.72"/>
   <Bond class1="ca" class2="h5" length="0.1085" k="290536.96"/>
-  <Bond class1="ca" class2="ha" length="0.1087" k="288110.24"/><Bond class1="ca_9" class2="ha_9" length="0.1087" k="288110.24"/><Bond class1="ca_9" class2="ha_9" length="0.1087" k="288110.24"/><Bond class1="ca_9" class2="ha_9" length="0.1087" k="288110.24"/><Bond class1="ca_9" class2="ha_9" length="0.1087" k="288110.24"/><Bond class1="ca_8" class2="ha_8" length="0.1087" k="288110.24"/><Bond class1="ca_8" class2="ha_8" length="0.1087" k="288110.24"/><Bond class1="ca_8" class2="ha_8" length="0.1087" k="288110.24"/><Bond class1="ca_8" class2="ha_8" length="0.1087" k="288110.24"/><Bond class1="ca_7" class2="ha_7" length="0.1087" k="288110.24"/><Bond class1="ca_7" class2="ha_7" length="0.1087" k="288110.24"/><Bond class1="ca_7" class2="ha_7" length="0.1087" k="288110.24"/><Bond class1="ca_7" class2="ha_7" length="0.1087" k="288110.24"/><Bond class1="ca_7" class2="ha_7" length="0.1087" k="288110.24"/>
-  
+  <Bond class1="ca" class2="ha" length="0.1087" k="288110.24"/>
   <Bond class1="ca" class2="i" length="0.2095" k="211208.32"/>
   <Bond class1="ca" class2="n1" length="0.14" k="333130.08"/>
   <Bond class1="ca" class2="n2" length="0.1303" k="461578.88"/>
   <Bond class1="ca" class2="n" length="0.1422" k="311540.64"/>
   <Bond class1="ca" class2="n4" length="0.1465" k="272462.08"/>
-  <Bond class1="ca" class2="na" length="0.135" k="393547.04"/><Bond class1="ca_9" class2="na_9" length="0.135" k="393547.04"/>
-  
+  <Bond class1="ca" class2="na" length="0.135" k="393547.04"/>
   <Bond class1="ca" class2="nb" length="0.1342" k="404258.08"/>
   <Bond class1="ca" class2="nc" length="0.1336" k="412458.72"/>
   <Bond class1="ca" class2="nd" length="0.1336" k="412458.72"/>
@@ -827,8 +810,7 @@
   <Bond class1="ca" class2="nh" length="0.1364" k="375723.2"/>
   <Bond class1="ca" class2="no" length="0.1468" k="269951.68"/>
   <Bond class1="ca" class2="o" length="0.12304" k="510448.0"/>
-  <Bond class1="ca" class2="oh" length="0.1362" k="323088.48"/><Bond class1="ca_8" class2="oh_8" length="0.1362" k="323088.48"/>
-  
+  <Bond class1="ca" class2="oh" length="0.1362" k="323088.48"/>
   <Bond class1="ca" class2="os" length="0.1373" k="311624.32"/>
   <Bond class1="ca" class2="p2" length="0.184" k="203342.4"/>
   <Bond class1="ca" class2="p3" length="0.1824" k="211459.36"/>
@@ -848,13 +830,11 @@
   <Bond class1="c" class2="c1" length="0.146" k="317816.64"/>
   <Bond class1="c" class2="c2" length="0.1406" k="376476.32"/>
   <Bond class1="c" class2="c" length="0.155" k="242755.68"/>
-  <Bond class1="c" class2="c3" length="0.1508" k="274721.44"/><Bond class1="c_19" class2="c3_19" length="0.1508" k="274721.44"/><Bond class1="c_18" class2="c3_18" length="0.1508" k="274721.44"/><Bond class1="c_15" class2="c3_15" length="0.1508" k="274721.44"/><Bond class1="c_14" class2="c3_14" length="0.1508" k="274721.44"/>
-  
+  <Bond class1="c" class2="c3" length="0.1508" k="274721.44"/>
   <Bond class1="c" class2="ca" length="0.1487" k="292628.96"/>
   <Bond class1="c" class2="cc" length="0.1462" k="315808.32"/>
   <Bond class1="cc" class2="cc" length="0.1429" k="350033.44"/>
-  <Bond class1="cc" class2="cd" length="0.1371" k="421747.2"/><Bond class1="cc_17" class2="cd_17" length="0.1371" k="421747.2"/><Bond class1="cc_9" class2="cd_9" length="0.1371" k="421747.2"/>
-  
+  <Bond class1="cc" class2="cd" length="0.1371" k="421747.2"/>
   <Bond class1="cc" class2="ce" length="0.14532" k="324594.72"/>
   <Bond class1="cc" class2="cf" length="0.13666" k="427855.84"/>
   <Bond class1="cc" class2="cg" length="0.1427" k="352209.12"/>
@@ -867,20 +847,16 @@
   <Bond class1="cc" class2="f" length="0.13401" k="308444.48"/>
   <Bond class1="c" class2="cg" length="0.1452" k="325766.24"/>
   <Bond class1="c" class2="ch" length="0.1452" k="325766.24"/>
-  <Bond class1="cc" class2="h4" length="0.1083" k="292963.68"/><Bond class1="cc_17" class2="h4_17" length="0.1083" k="292963.68"/><Bond class1="cc_9" class2="h4_9" length="0.1083" k="292963.68"/>
-  
-  <Bond class1="cc" class2="h5" length="0.1079" k="297900.8"/><Bond class1="cc_17" class2="h5_17" length="0.1079" k="297900.8"/>
-  
+  <Bond class1="cc" class2="h4" length="0.1083" k="292963.68"/>
+  <Bond class1="cc" class2="h5" length="0.1079" k="297900.8"/>
   <Bond class1="cc" class2="ha" length="0.1085" k="290536.96"/>
   <Bond class1="c" class2="cl" length="0.1766" k="245600.8"/>
   <Bond class1="cc" class2="n2" length="0.12917" k="480155.84"/>
   <Bond class1="cc" class2="n" length="0.138" k="356476.8"/>
   <Bond class1="cc" class2="n4" length="0.1493" k="250203.2"/>
-  <Bond class1="cc" class2="na" length="0.1371" k="367187.84"/><Bond class1="cc_17" class2="na_17" length="0.1371" k="367187.84"/><Bond class1="cc_17" class2="na_17" length="0.1371" k="367187.84"/><Bond class1="cc_9" class2="na_9" length="0.1371" k="367187.84"/>
-  
+  <Bond class1="cc" class2="na" length="0.1371" k="367187.84"/>
   <Bond class1="cc" class2="nc" length="0.1376" k="361162.88"/>
-  <Bond class1="cc" class2="nd" length="0.1335" k="413881.28"/><Bond class1="cc_17" class2="nd_17" length="0.1335" k="413881.28"/>
-  
+  <Bond class1="cc" class2="nd" length="0.1335" k="413881.28"/>
   <Bond class1="cc" class2="ne" length="0.1379" k="357648.32"/>
   <Bond class1="cc" class2="nf" length="0.1296" k="473126.72"/>
   <Bond class1="cc" class2="nh" length="0.1364" k="375723.2"/>
@@ -910,8 +886,7 @@
   <Bond class1="cd" class2="n" length="0.138" k="356476.8"/>
   <Bond class1="cd" class2="na" length="0.1371" k="367187.84"/>
   <Bond class1="cd" class2="nc" length="0.1335" k="413881.28"/>
-  <Bond class1="cd" class2="nd" length="0.1376" k="361162.88"/><Bond class1="cd_17" class2="nd_17" length="0.1376" k="361162.88"/>
-  
+  <Bond class1="cd" class2="nd" length="0.1376" k="361162.88"/>
   <Bond class1="cd" class2="ne" length="0.1296" k="473126.72"/>
   <Bond class1="cd" class2="nh" length="0.1364" k="375723.2"/>
   <Bond class1="cd" class2="oh" length="0.13451" k="341832.8"/>
@@ -1010,17 +985,14 @@
   <Bond class1="cl" class2="sy" length="0.2072" k="174640.16"/>
   <Bond class1="c" class2="n2" length="0.142" k="313465.28"/>
   <Bond class1="c" class2="n4" length="0.1546" k="213802.4"/>
-  <Bond class1="c" class2="n" length="0.1345" k="400157.76"/><Bond class1="c_15" class2="n_15" length="0.1345" k="400157.76"/><Bond class1="c_14" class2="n_14" length="0.1345" k="400157.76"/>
-  
+  <Bond class1="c" class2="n" length="0.1345" k="400157.76"/>
   <Bond class1="c" class2="nc" length="0.13906" k="344845.28"/>
   <Bond class1="c" class2="nd" length="0.13906" k="344845.28"/>
   <Bond class1="c" class2="ne" length="0.13932" k="341581.76"/>
   <Bond class1="c" class2="nf" length="0.13932" k="341581.76"/>
   <Bond class1="c" class2="no" length="0.154" k="217651.68"/>
-  <Bond class1="c" class2="o" length="0.1214" k="542246.4"/><Bond class1="c_19" class2="o_19" length="0.1214" k="542246.4"/><Bond class1="c_18" class2="o_18" length="0.1214" k="542246.4"/><Bond class1="c_15" class2="o_15" length="0.1214" k="542246.4"/><Bond class1="c_14" class2="o_14" length="0.1214" k="542246.4"/>
-  
-  <Bond class1="c" class2="oh" length="0.1306" k="390283.52"/><Bond class1="c_19" class2="oh_19" length="0.1306" k="390283.52"/><Bond class1="c_18" class2="oh_18" length="0.1306" k="390283.52"/>
-  
+  <Bond class1="c" class2="o" length="0.1214" k="542246.4"/>
+  <Bond class1="c" class2="oh" length="0.1306" k="390283.52"/>
   <Bond class1="c" class2="os" length="0.1343" k="344175.84"/>
   <Bond class1="c" class2="p2" length="0.19" k="175979.04"/>
   <Bond class1="c" class2="p3" length="0.1883" k="183259.2"/>
@@ -1101,21 +1073,15 @@
   <Bond class1="f" class2="sh" length="0.1649" k="201166.72"/>
   <Bond class1="f" class2="ss" length="0.1634" k="209618.4"/>
   <Bond class1="hn" class2="n1" length="0.0986" k="380827.68"/>
-  <Bond class1="hn" class2="n2" length="0.1029" k="314218.4"/><Bond class1="n2_16" class2="hn_16" length="0.1029" k="314218.4"/>
-  
-  <Bond class1="hn" class2="n3" length="0.1018" k="329782.88"/><Bond class1="n3_2" class2="hn_2" length="0.1018" k="329782.88"/><Bond class1="n3_2" class2="hn_2" length="0.1018" k="329782.88"/>
-  
-  <Bond class1="hn" class2="n" length="0.1009" k="343255.36"/><Bond class1="n_15" class2="hn_15" length="0.1009" k="343255.36"/><Bond class1="n_15" class2="hn_15" length="0.1009" k="343255.36"/><Bond class1="n_14" class2="hn_14" length="0.1009" k="343255.36"/><Bond class1="n_14" class2="hn_14" length="0.1009" k="343255.36"/>
-  
+  <Bond class1="hn" class2="n2" length="0.1029" k="314218.4"/>
+  <Bond class1="hn" class2="n3" length="0.1018" k="329782.88"/>
+  <Bond class1="hn" class2="n" length="0.1009" k="343255.36"/>
   <Bond class1="hn" class2="n4" length="0.1033" k="308779.2"/>
-  <Bond class1="hn" class2="na" length="0.1011" k="340242.88"/><Bond class1="na_17" class2="hn_17" length="0.1011" k="340242.88"/><Bond class1="na_9" class2="hn_9" length="0.1011" k="340242.88"/>
-  
-  <Bond class1="hn" class2="nh" length="0.1014" k="335724.16"/><Bond class1="nh_16" class2="hn_16" length="0.1014" k="335724.16"/><Bond class1="nh_16" class2="hn_16" length="0.1014" k="335724.16"/><Bond class1="nh_16" class2="hn_16" length="0.1014" k="335724.16"/>
-  
+  <Bond class1="hn" class2="na" length="0.1011" k="340242.88"/>
+  <Bond class1="hn" class2="nh" length="0.1014" k="335724.16"/>
   <Bond class1="hn" class2="no" length="0.1023" k="322670.08"/>
   <Bond class1="ho" class2="o" length="0.0981" k="299490.72"/>
-  <Bond class1="ho" class2="oh" length="0.0974" k="309281.28"/><Bond class1="oh_19" class2="ho_19" length="0.0974" k="309281.28"/><Bond class1="oh_18" class2="ho_18" length="0.0974" k="309281.28"/><Bond class1="oh_11" class2="ho_11" length="0.0974" k="309281.28"/><Bond class1="oh_10" class2="ho_10" length="0.0974" k="309281.28"/><Bond class1="oh_8" class2="ho_8" length="0.0974" k="309281.28"/>
-  
+  <Bond class1="ho" class2="oh" length="0.0974" k="309281.28"/>
   <Bond class1="hp" class2="p2" length="0.1336" k="322251.68"/>
   <Bond class1="hp" class2="p3" length="0.1409" k="253634.08"/>
   <Bond class1="hp" class2="p4" length="0.1349" k="308528.16"/>
@@ -1123,8 +1089,7 @@
   <Bond class1="hs" class2="s" length="0.1353" k="239659.52"/>
   <Bond class1="hs" class2="s4" length="0.1375" k="222923.52"/>
   <Bond class1="hs" class2="s6" length="0.1359" k="234973.44"/>
-  <Bond class1="hs" class2="sh" length="0.1337" k="252880.96"/><Bond class1="sh_12" class2="hs_12" length="0.1337" k="252880.96"/>
-  
+  <Bond class1="hs" class2="sh" length="0.1337" k="252880.96"/>
   <Bond class1="i" class2="i" length="0.2917" k="91378.56"/>
   <Bond class1="i" class2="n1" length="0.206" k="252797.28"/>
   <Bond class1="i" class2="n2" length="0.2304" k="152799.68"/>
@@ -1466,1499 +1431,421 @@
   <Bond class1="cf" class2="ss" length="0.17906" k="203844.48"/>
   <Bond class1="cq" class2="na" length="0.1384" k="351874.4"/>
   <Bond class1="cq" class2="nb" length="0.13398" k="407270.56"/>
- </HarmonicBondForce>
- <CustomAngleForce energy="lambda1*k*(theta-angle)^2"><PerAngleParameter name="angle"/><PerAngleParameter name="k"/><GlobalParameter defaultValue="0.5" name="lambda1"/><Angle class1="c" class2="ce" class3="c3_2" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_3" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_4" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_5" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_6" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_7" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_8" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_9" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_10" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_11" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_12" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_13" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_14" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_15" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_16" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_17" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_18" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_19" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="nh" class2="ce" class3="c3_2" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_3" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_4" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_5" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_6" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_7" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_8" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_9" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_10" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_11" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_12" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_13" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_14" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_15" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_16" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_17" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_18" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_19" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="h4" class2="ce" class3="c3_2" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_3" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_4" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_5" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_6" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_7" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_8" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_9" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_10" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_11" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_12" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_13" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_14" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_15" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_16" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_17" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_18" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_19" angle="2.0435187547" k="382.451072"/>
-  </CustomAngleForce><CustomAngleForce energy="lambda2*k*(theta-angle)^2"><PerAngleParameter name="angle"/><PerAngleParameter name="k"/><GlobalParameter defaultValue="0.5" name="lambda2"/><Angle class1="c" class2="ce" class3="c3_2" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_3" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_4" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_5" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_6" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_7" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_8" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_9" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_10" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_11" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_12" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_13" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_14" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_15" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_16" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_17" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_18" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_19" angle="2.04063896143" k="530.1128"/>
+ <Bond class1="c3_2" class2="c3_2" length="0.1535" k="253634.08"/>
+  <Bond class1="c3_2" class2="c3_2" length="0.1535" k="253634.08"/>
+  <Bond class1="ce" class2="c3_2" length="0.1505" k="277231.84"/>
+  <Bond class1="c3_2" class2="c3_2" length="0.1535" k="253634.08"/>
+  <Bond class1="c3_2" class2="n3_2" length="0.147" k="268278.08"/>
+  <Bond class1="c3_2" class2="hc_2" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_2" class2="hc_2" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_2" class2="hc_2" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_2" class2="hc_2" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_2" class2="hc_2" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_2" class2="hc_2" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_2" class2="h1_2" length="0.1093" k="281081.12"/>
+  <Bond class1="c3_2" class2="h1_2" length="0.1093" k="281081.12"/>
+  <Bond class1="n3_2" class2="hn_2" length="0.1018" k="329782.88"/>
+  <Bond class1="n3_2" class2="hn_2" length="0.1018" k="329782.88"/>
+  <Bond class1="ce" class2="c3_3" length="0.1505" k="277231.84"/>
+  <Bond class1="c3_3" class2="hc_3" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_3" class2="hc_3" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_3" class2="hc_3" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_4" class2="c3_4" length="0.1535" k="253634.08"/>
+  <Bond class1="c3_4" class2="c3_4" length="0.1535" k="253634.08"/>
+  <Bond class1="ce" class2="c3_4" length="0.1505" k="277231.84"/>
+  <Bond class1="c3_4" class2="hc_4" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_4" class2="hc_4" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_4" class2="hc_4" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_4" class2="hc_4" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_4" class2="hc_4" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_4" class2="hc_4" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_4" class2="hc_4" length="0.1092" k="282252.64"/>
+  <Bond class1="ce" class2="c3_5" length="0.1505" k="277231.84"/>
+  <Bond class1="c3_5" class2="c3_5" length="0.1535" k="253634.08"/>
+  <Bond class1="c3_5" class2="c3_5" length="0.1535" k="253634.08"/>
+  <Bond class1="c3_5" class2="c3_5" length="0.1535" k="253634.08"/>
+  <Bond class1="c3_5" class2="hc_5" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_5" class2="hc_5" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_5" class2="hc_5" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_5" class2="hc_5" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_5" class2="hc_5" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_5" class2="hc_5" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_5" class2="hc_5" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_5" class2="hc_5" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_5" class2="hc_5" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_6" class2="c3_6" length="0.1535" k="253634.08"/>
+  <Bond class1="c3_6" class2="c3_6" length="0.1535" k="253634.08"/>
+  <Bond class1="c3_6" class2="c3_6" length="0.1535" k="253634.08"/>
+  <Bond class1="ce" class2="c3_6" length="0.1505" k="277231.84"/>
+  <Bond class1="c3_6" class2="hc_6" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_6" class2="hc_6" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_6" class2="hc_6" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_6" class2="hc_6" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_6" class2="hc_6" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_6" class2="hc_6" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_6" class2="hc_6" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_6" class2="hc_6" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_6" class2="hc_6" length="0.1092" k="282252.64"/>
+  <Bond class1="ca_7" class2="ca_7" length="0.1387" k="400325.12"/>
+  <Bond class1="ca_7" class2="ca_7" length="0.1387" k="400325.12"/>
+  <Bond class1="ca_7" class2="ca_7" length="0.1387" k="400325.12"/>
+  <Bond class1="ca_7" class2="ca_7" length="0.1387" k="400325.12"/>
+  <Bond class1="ca_7" class2="ca_7" length="0.1387" k="400325.12"/>
+  <Bond class1="ca_7" class2="ca_7" length="0.1387" k="400325.12"/>
+  <Bond class1="ca_7" class2="c3_7" length="0.1513" k="270704.8"/>
+  <Bond class1="ce" class2="c3_7" length="0.1505" k="277231.84"/>
+  <Bond class1="ca_7" class2="ha_7" length="0.1087" k="288110.24"/>
+  <Bond class1="ca_7" class2="ha_7" length="0.1087" k="288110.24"/>
+  <Bond class1="ca_7" class2="ha_7" length="0.1087" k="288110.24"/>
+  <Bond class1="ca_7" class2="ha_7" length="0.1087" k="288110.24"/>
+  <Bond class1="ca_7" class2="ha_7" length="0.1087" k="288110.24"/>
+  <Bond class1="c3_7" class2="hc_7" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_7" class2="hc_7" length="0.1092" k="282252.64"/>
+  <Bond class1="ca_8" class2="ca_8" length="0.1387" k="400325.12"/>
+  <Bond class1="ca_8" class2="ca_8" length="0.1387" k="400325.12"/>
+  <Bond class1="ca_8" class2="ca_8" length="0.1387" k="400325.12"/>
+  <Bond class1="ca_8" class2="ca_8" length="0.1387" k="400325.12"/>
+  <Bond class1="ca_8" class2="ca_8" length="0.1387" k="400325.12"/>
+  <Bond class1="ca_8" class2="ca_8" length="0.1387" k="400325.12"/>
+  <Bond class1="ca_8" class2="c3_8" length="0.1513" k="270704.8"/>
+  <Bond class1="ce" class2="c3_8" length="0.1505" k="277231.84"/>
+  <Bond class1="ca_8" class2="oh_8" length="0.1362" k="323088.48"/>
+  <Bond class1="ca_8" class2="ha_8" length="0.1087" k="288110.24"/>
+  <Bond class1="ca_8" class2="ha_8" length="0.1087" k="288110.24"/>
+  <Bond class1="ca_8" class2="ha_8" length="0.1087" k="288110.24"/>
+  <Bond class1="ca_8" class2="ha_8" length="0.1087" k="288110.24"/>
+  <Bond class1="c3_8" class2="hc_8" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_8" class2="hc_8" length="0.1092" k="282252.64"/>
+  <Bond class1="oh_8" class2="ho_8" length="0.0974" k="309281.28"/>
+  <Bond class1="ca_9" class2="ca_9" length="0.1387" k="400325.12"/>
+  <Bond class1="ca_9" class2="ca_9" length="0.1387" k="400325.12"/>
+  <Bond class1="ca_9" class2="ca_9" length="0.1387" k="400325.12"/>
+  <Bond class1="ca_9" class2="ca_9" length="0.1387" k="400325.12"/>
+  <Bond class1="cc_9" class2="cd_9" length="0.1371" k="421747.2"/>
+  <Bond class1="ca_9" class2="cd_9" length="0.1434" k="344510.56"/>
+  <Bond class1="ca_9" class2="ca_9" length="0.1387" k="400325.12"/>
+  <Bond class1="ca_9" class2="ca_9" length="0.1387" k="400325.12"/>
+  <Bond class1="cd_9" class2="c3_9" length="0.1499" k="282252.64"/>
+  <Bond class1="ce" class2="c3_9" length="0.1505" k="277231.84"/>
+  <Bond class1="cc_9" class2="na_9" length="0.1371" k="367187.84"/>
+  <Bond class1="ca_9" class2="na_9" length="0.135" k="393547.04"/>
+  <Bond class1="ca_9" class2="ha_9" length="0.1087" k="288110.24"/>
+  <Bond class1="ca_9" class2="ha_9" length="0.1087" k="288110.24"/>
+  <Bond class1="ca_9" class2="ha_9" length="0.1087" k="288110.24"/>
+  <Bond class1="ca_9" class2="ha_9" length="0.1087" k="288110.24"/>
+  <Bond class1="cc_9" class2="h4_9" length="0.1083" k="292963.68"/>
+  <Bond class1="c3_9" class2="hc_9" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_9" class2="hc_9" length="0.1092" k="282252.64"/>
+  <Bond class1="na_9" class2="hn_9" length="0.1011" k="340242.88"/>
+  <Bond class1="ce" class2="c3_10" length="0.1505" k="277231.84"/>
+  <Bond class1="c3_10" class2="oh_10" length="0.1426" k="262838.88"/>
+  <Bond class1="c3_10" class2="h1_10" length="0.1093" k="281081.12"/>
+  <Bond class1="c3_10" class2="h1_10" length="0.1093" k="281081.12"/>
+  <Bond class1="oh_10" class2="ho_10" length="0.0974" k="309281.28"/>
+  <Bond class1="c3_11" class2="c3_11" length="0.1535" k="253634.08"/>
+  <Bond class1="ce" class2="c3_11" length="0.1505" k="277231.84"/>
+  <Bond class1="c3_11" class2="oh_11" length="0.1426" k="262838.88"/>
+  <Bond class1="c3_11" class2="hc_11" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_11" class2="hc_11" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_11" class2="hc_11" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_11" class2="h1_11" length="0.1093" k="281081.12"/>
+  <Bond class1="oh_11" class2="ho_11" length="0.0974" k="309281.28"/>
+  <Bond class1="ce" class2="c3_12" length="0.1505" k="277231.84"/>
+  <Bond class1="c3_12" class2="sh_12" length="0.1822" k="188531.04"/>
+  <Bond class1="c3_12" class2="h1_12" length="0.1093" k="281081.12"/>
+  <Bond class1="c3_12" class2="h1_12" length="0.1093" k="281081.12"/>
+  <Bond class1="sh_12" class2="hs_12" length="0.1337" k="252880.96"/>
+  <Bond class1="ce" class2="c3_13" length="0.1505" k="277231.84"/>
+  <Bond class1="c3_13" class2="c3_13" length="0.1535" k="253634.08"/>
+  <Bond class1="c3_13" class2="ss_13" length="0.1821" k="188949.44"/>
+  <Bond class1="c3_13" class2="ss_13" length="0.1821" k="188949.44"/>
+  <Bond class1="c3_13" class2="h1_13" length="0.1093" k="281081.12"/>
+  <Bond class1="c3_13" class2="h1_13" length="0.1093" k="281081.12"/>
+  <Bond class1="c3_13" class2="h1_13" length="0.1093" k="281081.12"/>
+  <Bond class1="c3_13" class2="hc_13" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_13" class2="hc_13" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_13" class2="h1_13" length="0.1093" k="281081.12"/>
+  <Bond class1="c3_13" class2="h1_13" length="0.1093" k="281081.12"/>
+  <Bond class1="c_14" class2="c3_14" length="0.1508" k="274721.44"/>
+  <Bond class1="ce" class2="c3_14" length="0.1505" k="277231.84"/>
+  <Bond class1="c_14" class2="n_14" length="0.1345" k="400157.76"/>
+  <Bond class1="c_14" class2="o_14" length="0.1214" k="542246.4"/>
+  <Bond class1="c3_14" class2="hc_14" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_14" class2="hc_14" length="0.1092" k="282252.64"/>
+  <Bond class1="n_14" class2="hn_14" length="0.1009" k="343255.36"/>
+  <Bond class1="n_14" class2="hn_14" length="0.1009" k="343255.36"/>
+  <Bond class1="c_15" class2="c3_15" length="0.1508" k="274721.44"/>
+  <Bond class1="c3_15" class2="c3_15" length="0.1535" k="253634.08"/>
+  <Bond class1="ce" class2="c3_15" length="0.1505" k="277231.84"/>
+  <Bond class1="c_15" class2="n_15" length="0.1345" k="400157.76"/>
+  <Bond class1="c_15" class2="o_15" length="0.1214" k="542246.4"/>
+  <Bond class1="c3_15" class2="hc_15" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_15" class2="hc_15" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_15" class2="hc_15" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_15" class2="hc_15" length="0.1092" k="282252.64"/>
+  <Bond class1="n_15" class2="hn_15" length="0.1009" k="343255.36"/>
+  <Bond class1="n_15" class2="hn_15" length="0.1009" k="343255.36"/>
+  <Bond class1="c3_16" class2="c3_16" length="0.1535" k="253634.08"/>
+  <Bond class1="ce" class2="c3_16" length="0.1505" k="277231.84"/>
+  <Bond class1="c3_16" class2="c3_16" length="0.1535" k="253634.08"/>
+  <Bond class1="c2_16" class2="n2_16" length="0.1288" k="486264.48"/>
+  <Bond class1="c2_16" class2="nh_16" length="0.1355" k="387103.68"/>
+  <Bond class1="c2_16" class2="nh_16" length="0.1355" k="387103.68"/>
+  <Bond class1="c3_16" class2="nh_16" length="0.1458" k="278403.36"/>
+  <Bond class1="c3_16" class2="hc_16" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_16" class2="hc_16" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_16" class2="hc_16" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_16" class2="hc_16" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_16" class2="h1_16" length="0.1093" k="281081.12"/>
+  <Bond class1="c3_16" class2="h1_16" length="0.1093" k="281081.12"/>
+  <Bond class1="n2_16" class2="hn_16" length="0.1029" k="314218.4"/>
+  <Bond class1="nh_16" class2="hn_16" length="0.1014" k="335724.16"/>
+  <Bond class1="nh_16" class2="hn_16" length="0.1014" k="335724.16"/>
+  <Bond class1="nh_16" class2="hn_16" length="0.1014" k="335724.16"/>
+  <Bond class1="cc_17" class2="cd_17" length="0.1371" k="421747.2"/>
+  <Bond class1="cd_17" class2="c3_17" length="0.1499" k="282252.64"/>
+  <Bond class1="ce" class2="c3_17" length="0.1505" k="277231.84"/>
+  <Bond class1="cc_17" class2="nd_17" length="0.1335" k="413881.28"/>
+  <Bond class1="cd_17" class2="nd_17" length="0.1376" k="361162.88"/>
+  <Bond class1="cc_17" class2="na_17" length="0.1371" k="367187.84"/>
+  <Bond class1="cc_17" class2="na_17" length="0.1371" k="367187.84"/>
+  <Bond class1="cc_17" class2="h4_17" length="0.1083" k="292963.68"/>
+  <Bond class1="cc_17" class2="h5_17" length="0.1079" k="297900.8"/>
+  <Bond class1="c3_17" class2="hc_17" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_17" class2="hc_17" length="0.1092" k="282252.64"/>
+  <Bond class1="na_17" class2="hn_17" length="0.1011" k="340242.88"/>
+  <Bond class1="c_18" class2="c3_18" length="0.1508" k="274721.44"/>
+  <Bond class1="ce" class2="c3_18" length="0.1505" k="277231.84"/>
+  <Bond class1="c_18" class2="o_18" length="0.1214" k="542246.4"/>
+  <Bond class1="c_18" class2="oh_18" length="0.1306" k="390283.52"/>
+  <Bond class1="c3_18" class2="hc_18" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_18" class2="hc_18" length="0.1092" k="282252.64"/>
+  <Bond class1="oh_18" class2="ho_18" length="0.0974" k="309281.28"/>
+  <Bond class1="c_19" class2="c3_19" length="0.1508" k="274721.44"/>
+  <Bond class1="c3_19" class2="c3_19" length="0.1535" k="253634.08"/>
+  <Bond class1="ce" class2="c3_19" length="0.1505" k="277231.84"/>
+  <Bond class1="c_19" class2="o_19" length="0.1214" k="542246.4"/>
+  <Bond class1="c_19" class2="oh_19" length="0.1306" k="390283.52"/>
+  <Bond class1="c3_19" class2="hc_19" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_19" class2="hc_19" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_19" class2="hc_19" length="0.1092" k="282252.64"/>
+  <Bond class1="c3_19" class2="hc_19" length="0.1092" k="282252.64"/>
+  <Bond class1="oh_19" class2="ho_19" length="0.0974" k="309281.28"/>
+  </HarmonicBondForce>
+ <CustomAngleForce energy="lambda1*k*(theta-angle)^2"><PerAngleParameter name="angle"/><PerAngleParameter name="k"/><GlobalParameter defaultValue="0.5" name="lambda1"/></CustomAngleForce><CustomAngleForce energy="lambda2*k*(theta-angle)^2"><PerAngleParameter name="angle"/><PerAngleParameter name="k"/><GlobalParameter defaultValue="0.5" name="lambda2"/><Angle class1="c" class2="ce" class3="c3_2" angle="2.04063896143" k="530.1128"/>
   <Angle class1="ce" class2="c3_2" class3="c3_2" angle="1.93836266726" k="533.0416"/>
   <Angle class1="ce" class2="c3_2" class3="hc_2" angle="1.93696640386" k="393.296"/>
   <Angle class1="ce" class2="c3_2" class3="hc_2" angle="1.93696640386" k="393.296"/>
   <Angle class1="nh" class2="ce" class3="c3_2" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_3" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_4" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_5" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_6" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_7" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_8" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_9" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_10" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_11" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_12" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_13" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_14" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_15" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_16" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_17" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_18" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_19" angle="2.09264977314" k="550.27968"/>
   <Angle class1="h4" class2="ce" class3="c3_2" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_3" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_4" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_5" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_6" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_7" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_8" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_9" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_10" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_11" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_12" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_13" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_14" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_15" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_16" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_17" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_18" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_19" angle="2.0435187547" k="382.451072"/>
   <Angle class1="c3_2" class2="c3_2" class3="ce" angle="1.93836266726" k="533.0416"/>
   <Angle class1="c3_2" class2="ce" class3="c" angle="2.04063896143" k="530.1128"/>
   <Angle class1="c3_2" class2="ce" class3="nh" angle="2.09264977314" k="550.27968"/>
   <Angle class1="c3_2" class2="ce" class3="h4" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="c3_2" class2="ce" class3="c3_3" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_2" class2="ce" class3="c3_4" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_2" class2="ce" class3="c3_5" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_2" class2="ce" class3="c3_6" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_2" class2="ce" class3="c3_7" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_2" class2="ce" class3="c3_8" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_2" class2="ce" class3="c3_9" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_2" class2="ce" class3="c3_10" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_2" class2="ce" class3="c3_11" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_2" class2="ce" class3="c3_12" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_2" class2="ce" class3="c3_13" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_2" class2="ce" class3="c3_14" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_2" class2="ce" class3="c3_15" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_2" class2="ce" class3="c3_16" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_2" class2="ce" class3="c3_17" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_2" class2="ce" class3="c3_18" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_2" class2="ce" class3="c3_19" angle="2.03854456633" k="522.280352"/>
   <Angle class1="hc_2" class2="c3_2" class3="ce" angle="1.93696640386" k="393.296"/>
   <Angle class1="hc_2" class2="c3_2" class3="ce" angle="1.93696640386" k="393.296"/>
-  </CustomAngleForce><CustomAngleForce energy="lambda3*k*(theta-angle)^2"><PerAngleParameter name="angle"/><PerAngleParameter name="k"/><GlobalParameter defaultValue="0.5" name="lambda3"/><Angle class1="c" class2="ce" class3="c3_2" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_3" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_4" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_5" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_6" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_7" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_8" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_9" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_10" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_11" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_12" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_13" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_14" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_15" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_16" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_17" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_18" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_19" angle="2.04063896143" k="530.1128"/>
+  </CustomAngleForce><CustomAngleForce energy="lambda3*k*(theta-angle)^2"><PerAngleParameter name="angle"/><PerAngleParameter name="k"/><GlobalParameter defaultValue="0.5" name="lambda3"/><Angle class1="c" class2="ce" class3="c3_3" angle="2.04063896143" k="530.1128"/>
   <Angle class1="ce" class2="c3_3" class3="hc_3" angle="1.93696640386" k="393.296"/>
   <Angle class1="ce" class2="c3_3" class3="hc_3" angle="1.93696640386" k="393.296"/>
   <Angle class1="ce" class2="c3_3" class3="hc_3" angle="1.93696640386" k="393.296"/>
-  <Angle class1="nh" class2="ce" class3="c3_2" angle="2.09264977314" k="550.27968"/>
   <Angle class1="nh" class2="ce" class3="c3_3" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_4" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_5" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_6" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_7" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_8" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_9" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_10" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_11" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_12" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_13" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_14" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_15" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_16" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_17" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_18" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_19" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="h4" class2="ce" class3="c3_2" angle="2.0435187547" k="382.451072"/>
   <Angle class1="h4" class2="ce" class3="c3_3" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_4" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_5" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_6" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_7" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_8" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_9" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_10" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_11" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_12" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_13" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_14" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_15" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_16" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_17" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_18" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_19" angle="2.0435187547" k="382.451072"/>
   <Angle class1="c3_3" class2="ce" class3="c" angle="2.04063896143" k="530.1128"/>
   <Angle class1="c3_3" class2="ce" class3="nh" angle="2.09264977314" k="550.27968"/>
   <Angle class1="c3_3" class2="ce" class3="h4" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="c3_3" class2="ce" class3="c3_2" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_3" class2="ce" class3="c3_4" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_3" class2="ce" class3="c3_5" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_3" class2="ce" class3="c3_6" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_3" class2="ce" class3="c3_7" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_3" class2="ce" class3="c3_8" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_3" class2="ce" class3="c3_9" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_3" class2="ce" class3="c3_10" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_3" class2="ce" class3="c3_11" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_3" class2="ce" class3="c3_12" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_3" class2="ce" class3="c3_13" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_3" class2="ce" class3="c3_14" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_3" class2="ce" class3="c3_15" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_3" class2="ce" class3="c3_16" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_3" class2="ce" class3="c3_17" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_3" class2="ce" class3="c3_18" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_3" class2="ce" class3="c3_19" angle="2.03854456633" k="522.280352"/>
   <Angle class1="hc_3" class2="c3_3" class3="ce" angle="1.93696640386" k="393.296"/>
   <Angle class1="hc_3" class2="c3_3" class3="ce" angle="1.93696640386" k="393.296"/>
   <Angle class1="hc_3" class2="c3_3" class3="ce" angle="1.93696640386" k="393.296"/>
-  </CustomAngleForce><CustomAngleForce energy="lambda4*k*(theta-angle)^2"><PerAngleParameter name="angle"/><PerAngleParameter name="k"/><GlobalParameter defaultValue="0.5" name="lambda4"/><Angle class1="c" class2="ce" class3="c3_2" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_3" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_4" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_5" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_6" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_7" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_8" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_9" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_10" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_11" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_12" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_13" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_14" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_15" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_16" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_17" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_18" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_19" angle="2.04063896143" k="530.1128"/>
+  </CustomAngleForce><CustomAngleForce energy="lambda4*k*(theta-angle)^2"><PerAngleParameter name="angle"/><PerAngleParameter name="k"/><GlobalParameter defaultValue="0.5" name="lambda4"/><Angle class1="c" class2="ce" class3="c3_4" angle="2.04063896143" k="530.1128"/>
   <Angle class1="ce" class2="c3_4" class3="c3_4" angle="1.93836266726" k="533.0416"/>
   <Angle class1="ce" class2="c3_4" class3="c3_4" angle="1.93836266726" k="533.0416"/>
   <Angle class1="ce" class2="c3_4" class3="hc_4" angle="1.93696640386" k="393.296"/>
-  <Angle class1="nh" class2="ce" class3="c3_2" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_3" angle="2.09264977314" k="550.27968"/>
   <Angle class1="nh" class2="ce" class3="c3_4" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_5" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_6" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_7" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_8" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_9" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_10" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_11" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_12" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_13" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_14" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_15" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_16" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_17" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_18" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_19" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="h4" class2="ce" class3="c3_2" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_3" angle="2.0435187547" k="382.451072"/>
   <Angle class1="h4" class2="ce" class3="c3_4" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_5" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_6" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_7" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_8" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_9" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_10" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_11" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_12" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_13" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_14" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_15" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_16" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_17" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_18" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_19" angle="2.0435187547" k="382.451072"/>
   <Angle class1="c3_4" class2="c3_4" class3="ce" angle="1.93836266726" k="533.0416"/>
   <Angle class1="c3_4" class2="c3_4" class3="ce" angle="1.93836266726" k="533.0416"/>
   <Angle class1="c3_4" class2="ce" class3="c" angle="2.04063896143" k="530.1128"/>
   <Angle class1="c3_4" class2="ce" class3="nh" angle="2.09264977314" k="550.27968"/>
   <Angle class1="c3_4" class2="ce" class3="h4" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="c3_4" class2="ce" class3="c3_2" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_4" class2="ce" class3="c3_3" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_4" class2="ce" class3="c3_5" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_4" class2="ce" class3="c3_6" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_4" class2="ce" class3="c3_7" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_4" class2="ce" class3="c3_8" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_4" class2="ce" class3="c3_9" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_4" class2="ce" class3="c3_10" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_4" class2="ce" class3="c3_11" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_4" class2="ce" class3="c3_12" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_4" class2="ce" class3="c3_13" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_4" class2="ce" class3="c3_14" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_4" class2="ce" class3="c3_15" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_4" class2="ce" class3="c3_16" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_4" class2="ce" class3="c3_17" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_4" class2="ce" class3="c3_18" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_4" class2="ce" class3="c3_19" angle="2.03854456633" k="522.280352"/>
   <Angle class1="hc_4" class2="c3_4" class3="ce" angle="1.93696640386" k="393.296"/>
-  </CustomAngleForce><CustomAngleForce energy="lambda5*k*(theta-angle)^2"><PerAngleParameter name="angle"/><PerAngleParameter name="k"/><GlobalParameter defaultValue="0.5" name="lambda5"/><Angle class1="c" class2="ce" class3="c3_2" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_3" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_4" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_5" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_6" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_7" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_8" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_9" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_10" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_11" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_12" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_13" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_14" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_15" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_16" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_17" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_18" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_19" angle="2.04063896143" k="530.1128"/>
+  </CustomAngleForce><CustomAngleForce energy="lambda5*k*(theta-angle)^2"><PerAngleParameter name="angle"/><PerAngleParameter name="k"/><GlobalParameter defaultValue="0.5" name="lambda5"/><Angle class1="c" class2="ce" class3="c3_5" angle="2.04063896143" k="530.1128"/>
   <Angle class1="ce" class2="c3_5" class3="c3_5" angle="1.93836266726" k="533.0416"/>
   <Angle class1="ce" class2="c3_5" class3="hc_5" angle="1.93696640386" k="393.296"/>
   <Angle class1="ce" class2="c3_5" class3="hc_5" angle="1.93696640386" k="393.296"/>
-  <Angle class1="nh" class2="ce" class3="c3_2" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_3" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_4" angle="2.09264977314" k="550.27968"/>
   <Angle class1="nh" class2="ce" class3="c3_5" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_6" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_7" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_8" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_9" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_10" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_11" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_12" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_13" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_14" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_15" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_16" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_17" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_18" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_19" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="h4" class2="ce" class3="c3_2" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_3" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_4" angle="2.0435187547" k="382.451072"/>
   <Angle class1="h4" class2="ce" class3="c3_5" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_6" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_7" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_8" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_9" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_10" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_11" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_12" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_13" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_14" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_15" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_16" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_17" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_18" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_19" angle="2.0435187547" k="382.451072"/>
   <Angle class1="c3_5" class2="ce" class3="c" angle="2.04063896143" k="530.1128"/>
   <Angle class1="c3_5" class2="ce" class3="nh" angle="2.09264977314" k="550.27968"/>
   <Angle class1="c3_5" class2="ce" class3="h4" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="c3_5" class2="ce" class3="c3_2" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_5" class2="ce" class3="c3_3" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_5" class2="ce" class3="c3_4" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_5" class2="ce" class3="c3_6" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_5" class2="ce" class3="c3_7" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_5" class2="ce" class3="c3_8" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_5" class2="ce" class3="c3_9" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_5" class2="ce" class3="c3_10" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_5" class2="ce" class3="c3_11" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_5" class2="ce" class3="c3_12" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_5" class2="ce" class3="c3_13" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_5" class2="ce" class3="c3_14" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_5" class2="ce" class3="c3_15" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_5" class2="ce" class3="c3_16" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_5" class2="ce" class3="c3_17" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_5" class2="ce" class3="c3_18" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_5" class2="ce" class3="c3_19" angle="2.03854456633" k="522.280352"/>
   <Angle class1="c3_5" class2="c3_5" class3="ce" angle="1.93836266726" k="533.0416"/>
   <Angle class1="hc_5" class2="c3_5" class3="ce" angle="1.93696640386" k="393.296"/>
   <Angle class1="hc_5" class2="c3_5" class3="ce" angle="1.93696640386" k="393.296"/>
-  </CustomAngleForce><CustomAngleForce energy="lambda6*k*(theta-angle)^2"><PerAngleParameter name="angle"/><PerAngleParameter name="k"/><GlobalParameter defaultValue="0.5" name="lambda6"/><Angle class1="c" class2="ce" class3="c3_2" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_3" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_4" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_5" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_6" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_7" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_8" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_9" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_10" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_11" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_12" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_13" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_14" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_15" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_16" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_17" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_18" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_19" angle="2.04063896143" k="530.1128"/>
+  </CustomAngleForce><CustomAngleForce energy="lambda6*k*(theta-angle)^2"><PerAngleParameter name="angle"/><PerAngleParameter name="k"/><GlobalParameter defaultValue="0.5" name="lambda6"/><Angle class1="c" class2="ce" class3="c3_6" angle="2.04063896143" k="530.1128"/>
   <Angle class1="ce" class2="c3_6" class3="c3_6" angle="1.93836266726" k="533.0416"/>
   <Angle class1="ce" class2="c3_6" class3="c3_6" angle="1.93836266726" k="533.0416"/>
   <Angle class1="ce" class2="c3_6" class3="hc_6" angle="1.93696640386" k="393.296"/>
-  <Angle class1="nh" class2="ce" class3="c3_2" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_3" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_4" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_5" angle="2.09264977314" k="550.27968"/>
   <Angle class1="nh" class2="ce" class3="c3_6" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_7" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_8" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_9" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_10" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_11" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_12" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_13" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_14" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_15" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_16" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_17" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_18" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_19" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="h4" class2="ce" class3="c3_2" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_3" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_4" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_5" angle="2.0435187547" k="382.451072"/>
   <Angle class1="h4" class2="ce" class3="c3_6" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_7" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_8" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_9" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_10" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_11" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_12" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_13" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_14" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_15" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_16" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_17" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_18" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_19" angle="2.0435187547" k="382.451072"/>
   <Angle class1="c3_6" class2="c3_6" class3="ce" angle="1.93836266726" k="533.0416"/>
   <Angle class1="c3_6" class2="c3_6" class3="ce" angle="1.93836266726" k="533.0416"/>
   <Angle class1="c3_6" class2="ce" class3="c" angle="2.04063896143" k="530.1128"/>
   <Angle class1="c3_6" class2="ce" class3="nh" angle="2.09264977314" k="550.27968"/>
   <Angle class1="c3_6" class2="ce" class3="h4" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="c3_6" class2="ce" class3="c3_2" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_6" class2="ce" class3="c3_3" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_6" class2="ce" class3="c3_4" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_6" class2="ce" class3="c3_5" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_6" class2="ce" class3="c3_7" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_6" class2="ce" class3="c3_8" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_6" class2="ce" class3="c3_9" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_6" class2="ce" class3="c3_10" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_6" class2="ce" class3="c3_11" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_6" class2="ce" class3="c3_12" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_6" class2="ce" class3="c3_13" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_6" class2="ce" class3="c3_14" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_6" class2="ce" class3="c3_15" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_6" class2="ce" class3="c3_16" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_6" class2="ce" class3="c3_17" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_6" class2="ce" class3="c3_18" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_6" class2="ce" class3="c3_19" angle="2.03854456633" k="522.280352"/>
   <Angle class1="hc_6" class2="c3_6" class3="ce" angle="1.93696640386" k="393.296"/>
-  </CustomAngleForce><CustomAngleForce energy="lambda7*k*(theta-angle)^2"><PerAngleParameter name="angle"/><PerAngleParameter name="k"/><GlobalParameter defaultValue="0.5" name="lambda7"/><Angle class1="c" class2="ce" class3="c3_2" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_3" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_4" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_5" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_6" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_7" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_8" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_9" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_10" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_11" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_12" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_13" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_14" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_15" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_16" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_17" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_18" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_19" angle="2.04063896143" k="530.1128"/>
+  </CustomAngleForce><CustomAngleForce energy="lambda7*k*(theta-angle)^2"><PerAngleParameter name="angle"/><PerAngleParameter name="k"/><GlobalParameter defaultValue="0.5" name="lambda7"/><Angle class1="c" class2="ce" class3="c3_7" angle="2.04063896143" k="530.1128"/>
   <Angle class1="ce" class2="c3_7" class3="ca_7" angle="1.96052834877" k="533.96208"/>
   <Angle class1="ce" class2="c3_7" class3="hc_7" angle="1.93696640386" k="393.296"/>
   <Angle class1="ce" class2="c3_7" class3="hc_7" angle="1.93696640386" k="393.296"/>
-  <Angle class1="nh" class2="ce" class3="c3_2" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_3" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_4" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_5" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_6" angle="2.09264977314" k="550.27968"/>
   <Angle class1="nh" class2="ce" class3="c3_7" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_8" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_9" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_10" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_11" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_12" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_13" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_14" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_15" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_16" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_17" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_18" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_19" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="h4" class2="ce" class3="c3_2" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_3" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_4" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_5" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_6" angle="2.0435187547" k="382.451072"/>
   <Angle class1="h4" class2="ce" class3="c3_7" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_8" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_9" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_10" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_11" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_12" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_13" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_14" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_15" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_16" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_17" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_18" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_19" angle="2.0435187547" k="382.451072"/>
   <Angle class1="ca_7" class2="c3_7" class3="ce" angle="1.96052834877" k="533.96208"/>
   <Angle class1="c3_7" class2="ce" class3="c" angle="2.04063896143" k="530.1128"/>
   <Angle class1="c3_7" class2="ce" class3="nh" angle="2.09264977314" k="550.27968"/>
   <Angle class1="c3_7" class2="ce" class3="h4" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="c3_7" class2="ce" class3="c3_2" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_7" class2="ce" class3="c3_3" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_7" class2="ce" class3="c3_4" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_7" class2="ce" class3="c3_5" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_7" class2="ce" class3="c3_6" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_7" class2="ce" class3="c3_8" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_7" class2="ce" class3="c3_9" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_7" class2="ce" class3="c3_10" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_7" class2="ce" class3="c3_11" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_7" class2="ce" class3="c3_12" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_7" class2="ce" class3="c3_13" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_7" class2="ce" class3="c3_14" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_7" class2="ce" class3="c3_15" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_7" class2="ce" class3="c3_16" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_7" class2="ce" class3="c3_17" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_7" class2="ce" class3="c3_18" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_7" class2="ce" class3="c3_19" angle="2.03854456633" k="522.280352"/>
   <Angle class1="hc_7" class2="c3_7" class3="ce" angle="1.93696640386" k="393.296"/>
   <Angle class1="hc_7" class2="c3_7" class3="ce" angle="1.93696640386" k="393.296"/>
-  </CustomAngleForce><CustomAngleForce energy="lambda8*k*(theta-angle)^2"><PerAngleParameter name="angle"/><PerAngleParameter name="k"/><GlobalParameter defaultValue="0.5" name="lambda8"/><Angle class1="c" class2="ce" class3="c3_2" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_3" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_4" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_5" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_6" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_7" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_8" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_9" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_10" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_11" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_12" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_13" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_14" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_15" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_16" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_17" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_18" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_19" angle="2.04063896143" k="530.1128"/>
+  </CustomAngleForce><CustomAngleForce energy="lambda8*k*(theta-angle)^2"><PerAngleParameter name="angle"/><PerAngleParameter name="k"/><GlobalParameter defaultValue="0.5" name="lambda8"/><Angle class1="c" class2="ce" class3="c3_8" angle="2.04063896143" k="530.1128"/>
   <Angle class1="ce" class2="c3_8" class3="ca_8" angle="1.96052834877" k="533.96208"/>
   <Angle class1="ce" class2="c3_8" class3="hc_8" angle="1.93696640386" k="393.296"/>
   <Angle class1="ce" class2="c3_8" class3="hc_8" angle="1.93696640386" k="393.296"/>
-  <Angle class1="nh" class2="ce" class3="c3_2" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_3" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_4" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_5" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_6" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_7" angle="2.09264977314" k="550.27968"/>
   <Angle class1="nh" class2="ce" class3="c3_8" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_9" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_10" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_11" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_12" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_13" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_14" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_15" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_16" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_17" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_18" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_19" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="h4" class2="ce" class3="c3_2" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_3" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_4" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_5" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_6" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_7" angle="2.0435187547" k="382.451072"/>
   <Angle class1="h4" class2="ce" class3="c3_8" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_9" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_10" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_11" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_12" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_13" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_14" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_15" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_16" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_17" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_18" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_19" angle="2.0435187547" k="382.451072"/>
   <Angle class1="ca_8" class2="c3_8" class3="ce" angle="1.96052834877" k="533.96208"/>
   <Angle class1="c3_8" class2="ce" class3="c" angle="2.04063896143" k="530.1128"/>
   <Angle class1="c3_8" class2="ce" class3="nh" angle="2.09264977314" k="550.27968"/>
   <Angle class1="c3_8" class2="ce" class3="h4" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="c3_8" class2="ce" class3="c3_2" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_8" class2="ce" class3="c3_3" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_8" class2="ce" class3="c3_4" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_8" class2="ce" class3="c3_5" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_8" class2="ce" class3="c3_6" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_8" class2="ce" class3="c3_7" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_8" class2="ce" class3="c3_9" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_8" class2="ce" class3="c3_10" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_8" class2="ce" class3="c3_11" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_8" class2="ce" class3="c3_12" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_8" class2="ce" class3="c3_13" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_8" class2="ce" class3="c3_14" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_8" class2="ce" class3="c3_15" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_8" class2="ce" class3="c3_16" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_8" class2="ce" class3="c3_17" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_8" class2="ce" class3="c3_18" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_8" class2="ce" class3="c3_19" angle="2.03854456633" k="522.280352"/>
   <Angle class1="hc_8" class2="c3_8" class3="ce" angle="1.93696640386" k="393.296"/>
   <Angle class1="hc_8" class2="c3_8" class3="ce" angle="1.93696640386" k="393.296"/>
-  </CustomAngleForce><CustomAngleForce energy="lambda9*k*(theta-angle)^2"><PerAngleParameter name="angle"/><PerAngleParameter name="k"/><GlobalParameter defaultValue="0.5" name="lambda9"/><Angle class1="c" class2="ce" class3="c3_2" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_3" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_4" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_5" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_6" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_7" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_8" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_9" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_10" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_11" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_12" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_13" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_14" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_15" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_16" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_17" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_18" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_19" angle="2.04063896143" k="530.1128"/>
+  </CustomAngleForce><CustomAngleForce energy="lambda9*k*(theta-angle)^2"><PerAngleParameter name="angle"/><PerAngleParameter name="k"/><GlobalParameter defaultValue="0.5" name="lambda9"/><Angle class1="c" class2="ce" class3="c3_9" angle="2.04063896143" k="530.1128"/>
   <Angle class1="ce" class2="c3_9" class3="cd_9" angle="1.96052834877" k="533.96208"/>
   <Angle class1="ce" class2="c3_9" class3="hc_9" angle="1.93696640386" k="393.296"/>
   <Angle class1="ce" class2="c3_9" class3="hc_9" angle="1.93696640386" k="393.296"/>
-  <Angle class1="nh" class2="ce" class3="c3_2" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_3" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_4" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_5" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_6" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_7" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_8" angle="2.09264977314" k="550.27968"/>
   <Angle class1="nh" class2="ce" class3="c3_9" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_10" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_11" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_12" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_13" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_14" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_15" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_16" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_17" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_18" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_19" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="h4" class2="ce" class3="c3_2" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_3" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_4" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_5" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_6" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_7" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_8" angle="2.0435187547" k="382.451072"/>
   <Angle class1="h4" class2="ce" class3="c3_9" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_10" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_11" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_12" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_13" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_14" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_15" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_16" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_17" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_18" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_19" angle="2.0435187547" k="382.451072"/>
   <Angle class1="cd_9" class2="c3_9" class3="ce" angle="1.96052834877" k="533.96208"/>
   <Angle class1="c3_9" class2="ce" class3="c" angle="2.04063896143" k="530.1128"/>
   <Angle class1="c3_9" class2="ce" class3="nh" angle="2.09264977314" k="550.27968"/>
   <Angle class1="c3_9" class2="ce" class3="h4" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="c3_9" class2="ce" class3="c3_2" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_9" class2="ce" class3="c3_3" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_9" class2="ce" class3="c3_4" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_9" class2="ce" class3="c3_5" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_9" class2="ce" class3="c3_6" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_9" class2="ce" class3="c3_7" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_9" class2="ce" class3="c3_8" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_9" class2="ce" class3="c3_10" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_9" class2="ce" class3="c3_11" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_9" class2="ce" class3="c3_12" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_9" class2="ce" class3="c3_13" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_9" class2="ce" class3="c3_14" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_9" class2="ce" class3="c3_15" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_9" class2="ce" class3="c3_16" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_9" class2="ce" class3="c3_17" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_9" class2="ce" class3="c3_18" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_9" class2="ce" class3="c3_19" angle="2.03854456633" k="522.280352"/>
   <Angle class1="hc_9" class2="c3_9" class3="ce" angle="1.93696640386" k="393.296"/>
   <Angle class1="hc_9" class2="c3_9" class3="ce" angle="1.93696640386" k="393.296"/>
-  </CustomAngleForce><CustomAngleForce energy="lambda10*k*(theta-angle)^2"><PerAngleParameter name="angle"/><PerAngleParameter name="k"/><GlobalParameter defaultValue="0.5" name="lambda10"/><Angle class1="c" class2="ce" class3="c3_2" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_3" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_4" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_5" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_6" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_7" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_8" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_9" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_10" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_11" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_12" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_13" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_14" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_15" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_16" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_17" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_18" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_19" angle="2.04063896143" k="530.1128"/>
+  </CustomAngleForce><CustomAngleForce energy="lambda10*k*(theta-angle)^2"><PerAngleParameter name="angle"/><PerAngleParameter name="k"/><GlobalParameter defaultValue="0.5" name="lambda10"/><Angle class1="c" class2="ce" class3="c3_10" angle="2.04063896143" k="530.1128"/>
   <Angle class1="ce" class2="c3_10" class3="oh_10" angle="1.93818813434" k="569.024"/>
   <Angle class1="ce" class2="c3_10" class3="h1_10" angle="1.91270632726" k="395.8064"/>
   <Angle class1="ce" class2="c3_10" class3="h1_10" angle="1.91270632726" k="395.8064"/>
-  <Angle class1="nh" class2="ce" class3="c3_2" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_3" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_4" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_5" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_6" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_7" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_8" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_9" angle="2.09264977314" k="550.27968"/>
   <Angle class1="nh" class2="ce" class3="c3_10" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_11" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_12" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_13" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_14" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_15" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_16" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_17" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_18" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_19" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="h4" class2="ce" class3="c3_2" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_3" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_4" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_5" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_6" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_7" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_8" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_9" angle="2.0435187547" k="382.451072"/>
   <Angle class1="h4" class2="ce" class3="c3_10" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_11" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_12" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_13" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_14" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_15" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_16" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_17" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_18" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_19" angle="2.0435187547" k="382.451072"/>
   <Angle class1="c3_10" class2="ce" class3="c" angle="2.04063896143" k="530.1128"/>
   <Angle class1="c3_10" class2="ce" class3="nh" angle="2.09264977314" k="550.27968"/>
   <Angle class1="c3_10" class2="ce" class3="h4" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="c3_10" class2="ce" class3="c3_2" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_10" class2="ce" class3="c3_3" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_10" class2="ce" class3="c3_4" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_10" class2="ce" class3="c3_5" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_10" class2="ce" class3="c3_6" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_10" class2="ce" class3="c3_7" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_10" class2="ce" class3="c3_8" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_10" class2="ce" class3="c3_9" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_10" class2="ce" class3="c3_11" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_10" class2="ce" class3="c3_12" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_10" class2="ce" class3="c3_13" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_10" class2="ce" class3="c3_14" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_10" class2="ce" class3="c3_15" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_10" class2="ce" class3="c3_16" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_10" class2="ce" class3="c3_17" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_10" class2="ce" class3="c3_18" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_10" class2="ce" class3="c3_19" angle="2.03854456633" k="522.280352"/>
   <Angle class1="oh_10" class2="c3_10" class3="ce" angle="1.93818813434" k="569.024"/>
   <Angle class1="h1_10" class2="c3_10" class3="ce" angle="1.91270632726" k="395.8064"/>
   <Angle class1="h1_10" class2="c3_10" class3="ce" angle="1.91270632726" k="395.8064"/>
-  </CustomAngleForce><CustomAngleForce energy="lambda11*k*(theta-angle)^2"><PerAngleParameter name="angle"/><PerAngleParameter name="k"/><GlobalParameter defaultValue="0.5" name="lambda11"/><Angle class1="c" class2="ce" class3="c3_2" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_3" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_4" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_5" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_6" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_7" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_8" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_9" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_10" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_11" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_12" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_13" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_14" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_15" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_16" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_17" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_18" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_19" angle="2.04063896143" k="530.1128"/>
+  </CustomAngleForce><CustomAngleForce energy="lambda11*k*(theta-angle)^2"><PerAngleParameter name="angle"/><PerAngleParameter name="k"/><GlobalParameter defaultValue="0.5" name="lambda11"/><Angle class1="c" class2="ce" class3="c3_11" angle="2.04063896143" k="530.1128"/>
   <Angle class1="ce" class2="c3_11" class3="c3_11" angle="1.93836266726" k="533.0416"/>
   <Angle class1="ce" class2="c3_11" class3="oh_11" angle="1.93818813434" k="569.024"/>
   <Angle class1="ce" class2="c3_11" class3="h1_11" angle="1.91270632726" k="395.8064"/>
-  <Angle class1="nh" class2="ce" class3="c3_2" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_3" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_4" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_5" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_6" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_7" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_8" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_9" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_10" angle="2.09264977314" k="550.27968"/>
   <Angle class1="nh" class2="ce" class3="c3_11" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_12" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_13" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_14" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_15" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_16" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_17" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_18" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_19" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="h4" class2="ce" class3="c3_2" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_3" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_4" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_5" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_6" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_7" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_8" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_9" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_10" angle="2.0435187547" k="382.451072"/>
   <Angle class1="h4" class2="ce" class3="c3_11" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_12" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_13" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_14" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_15" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_16" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_17" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_18" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_19" angle="2.0435187547" k="382.451072"/>
   <Angle class1="c3_11" class2="c3_11" class3="ce" angle="1.93836266726" k="533.0416"/>
   <Angle class1="c3_11" class2="ce" class3="c" angle="2.04063896143" k="530.1128"/>
   <Angle class1="c3_11" class2="ce" class3="nh" angle="2.09264977314" k="550.27968"/>
   <Angle class1="c3_11" class2="ce" class3="h4" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="c3_11" class2="ce" class3="c3_2" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_11" class2="ce" class3="c3_3" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_11" class2="ce" class3="c3_4" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_11" class2="ce" class3="c3_5" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_11" class2="ce" class3="c3_6" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_11" class2="ce" class3="c3_7" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_11" class2="ce" class3="c3_8" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_11" class2="ce" class3="c3_9" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_11" class2="ce" class3="c3_10" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_11" class2="ce" class3="c3_12" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_11" class2="ce" class3="c3_13" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_11" class2="ce" class3="c3_14" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_11" class2="ce" class3="c3_15" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_11" class2="ce" class3="c3_16" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_11" class2="ce" class3="c3_17" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_11" class2="ce" class3="c3_18" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_11" class2="ce" class3="c3_19" angle="2.03854456633" k="522.280352"/>
   <Angle class1="oh_11" class2="c3_11" class3="ce" angle="1.93818813434" k="569.024"/>
   <Angle class1="h1_11" class2="c3_11" class3="ce" angle="1.91270632726" k="395.8064"/>
-  </CustomAngleForce><CustomAngleForce energy="lambda12*k*(theta-angle)^2"><PerAngleParameter name="angle"/><PerAngleParameter name="k"/><GlobalParameter defaultValue="0.5" name="lambda12"/><Angle class1="c" class2="ce" class3="c3_2" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_3" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_4" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_5" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_6" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_7" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_8" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_9" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_10" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_11" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_12" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_13" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_14" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_15" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_16" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_17" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_18" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_19" angle="2.04063896143" k="530.1128"/>
+  </CustomAngleForce><CustomAngleForce energy="lambda12*k*(theta-angle)^2"><PerAngleParameter name="angle"/><PerAngleParameter name="k"/><GlobalParameter defaultValue="0.5" name="lambda12"/><Angle class1="c" class2="ce" class3="c3_12" angle="2.04063896143" k="530.1128"/>
   <Angle class1="ce" class2="c3_12" class3="sh_12" angle="1.93906079897" k="517.72816"/>
  <Angle class1="ce" class2="c3_12" class3="h1_12" angle="1.91270632726" k="395.8064"/>
   <Angle class1="ce" class2="c3_12" class3="h1_12" angle="1.91270632726" k="395.8064"/>
-  <Angle class1="nh" class2="ce" class3="c3_2" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_3" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_4" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_5" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_6" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_7" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_8" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_9" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_10" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_11" angle="2.09264977314" k="550.27968"/>
   <Angle class1="nh" class2="ce" class3="c3_12" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_13" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_14" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_15" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_16" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_17" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_18" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_19" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="h4" class2="ce" class3="c3_2" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_3" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_4" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_5" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_6" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_7" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_8" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_9" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_10" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_11" angle="2.0435187547" k="382.451072"/>
   <Angle class1="h4" class2="ce" class3="c3_12" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_13" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_14" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_15" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_16" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_17" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_18" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_19" angle="2.0435187547" k="382.451072"/>
   <Angle class1="c3_12" class2="ce" class3="c" angle="2.04063896143" k="530.1128"/>
   <Angle class1="c3_12" class2="ce" class3="nh" angle="2.09264977314" k="550.27968"/>
   <Angle class1="c3_12" class2="ce" class3="h4" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="c3_12" class2="ce" class3="c3_2" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_12" class2="ce" class3="c3_3" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_12" class2="ce" class3="c3_4" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_12" class2="ce" class3="c3_5" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_12" class2="ce" class3="c3_6" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_12" class2="ce" class3="c3_7" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_12" class2="ce" class3="c3_8" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_12" class2="ce" class3="c3_9" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_12" class2="ce" class3="c3_10" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_12" class2="ce" class3="c3_11" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_12" class2="ce" class3="c3_13" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_12" class2="ce" class3="c3_14" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_12" class2="ce" class3="c3_15" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_12" class2="ce" class3="c3_16" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_12" class2="ce" class3="c3_17" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_12" class2="ce" class3="c3_18" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_12" class2="ce" class3="c3_19" angle="2.03854456633" k="522.280352"/>
   <Angle class1="sh_12" class2="c3_12" class3="ce" angle="1.93906079897" k="517.72816"/>
  <Angle class1="h1_12" class2="c3_12" class3="ce" angle="1.91270632726" k="395.8064"/>
   <Angle class1="h1_12" class2="c3_12" class3="ce" angle="1.91270632726" k="395.8064"/>
-  </CustomAngleForce><CustomAngleForce energy="lambda13*k*(theta-angle)^2"><PerAngleParameter name="angle"/><PerAngleParameter name="k"/><GlobalParameter defaultValue="0.5" name="lambda13"/><Angle class1="c" class2="ce" class3="c3_2" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_3" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_4" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_5" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_6" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_7" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_8" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_9" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_10" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_11" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_12" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_13" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_14" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_15" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_16" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_17" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_18" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_19" angle="2.04063896143" k="530.1128"/>
+  </CustomAngleForce><CustomAngleForce energy="lambda13*k*(theta-angle)^2"><PerAngleParameter name="angle"/><PerAngleParameter name="k"/><GlobalParameter defaultValue="0.5" name="lambda13"/><Angle class1="c" class2="ce" class3="c3_13" angle="2.04063896143" k="530.1128"/>
   <Angle class1="ce" class2="c3_13" class3="c3_13" angle="1.93836266726" k="533.0416"/>
   <Angle class1="ce" class2="c3_13" class3="hc_13" angle="1.93696640386" k="393.296"/>
   <Angle class1="ce" class2="c3_13" class3="hc_13" angle="1.93696640386" k="393.296"/>
-  <Angle class1="nh" class2="ce" class3="c3_2" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_3" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_4" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_5" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_6" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_7" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_8" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_9" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_10" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_11" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_12" angle="2.09264977314" k="550.27968"/>
   <Angle class1="nh" class2="ce" class3="c3_13" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_14" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_15" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_16" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_17" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_18" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_19" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="h4" class2="ce" class3="c3_2" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_3" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_4" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_5" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_6" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_7" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_8" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_9" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_10" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_11" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_12" angle="2.0435187547" k="382.451072"/>
   <Angle class1="h4" class2="ce" class3="c3_13" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_14" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_15" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_16" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_17" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_18" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_19" angle="2.0435187547" k="382.451072"/>
   <Angle class1="c3_13" class2="ce" class3="c" angle="2.04063896143" k="530.1128"/>
   <Angle class1="c3_13" class2="ce" class3="nh" angle="2.09264977314" k="550.27968"/>
   <Angle class1="c3_13" class2="ce" class3="h4" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="c3_13" class2="ce" class3="c3_2" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_13" class2="ce" class3="c3_3" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_13" class2="ce" class3="c3_4" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_13" class2="ce" class3="c3_5" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_13" class2="ce" class3="c3_6" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_13" class2="ce" class3="c3_7" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_13" class2="ce" class3="c3_8" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_13" class2="ce" class3="c3_9" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_13" class2="ce" class3="c3_10" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_13" class2="ce" class3="c3_11" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_13" class2="ce" class3="c3_12" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_13" class2="ce" class3="c3_14" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_13" class2="ce" class3="c3_15" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_13" class2="ce" class3="c3_16" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_13" class2="ce" class3="c3_17" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_13" class2="ce" class3="c3_18" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_13" class2="ce" class3="c3_19" angle="2.03854456633" k="522.280352"/>
   <Angle class1="c3_13" class2="c3_13" class3="ce" angle="1.93836266726" k="533.0416"/>
   <Angle class1="hc_13" class2="c3_13" class3="ce" angle="1.93696640386" k="393.296"/>
   <Angle class1="hc_13" class2="c3_13" class3="ce" angle="1.93696640386" k="393.296"/>
-  </CustomAngleForce><CustomAngleForce energy="lambda14*k*(theta-angle)^2"><PerAngleParameter name="angle"/><PerAngleParameter name="k"/><GlobalParameter defaultValue="0.5" name="lambda14"/><Angle class1="c" class2="ce" class3="c3_2" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_3" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_4" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_5" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_6" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_7" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_8" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_9" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_10" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_11" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_12" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_13" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_14" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_15" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_16" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_17" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_18" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_19" angle="2.04063896143" k="530.1128"/>
+  </CustomAngleForce><CustomAngleForce energy="lambda14*k*(theta-angle)^2"><PerAngleParameter name="angle"/><PerAngleParameter name="k"/><GlobalParameter defaultValue="0.5" name="lambda14"/><Angle class1="c" class2="ce" class3="c3_14" angle="2.04063896143" k="530.1128"/>
   <Angle class1="ce" class2="c3_14" class3="c_14" angle="1.95441969638" k="535.71936"/>
   <Angle class1="ce" class2="c3_14" class3="hc_14" angle="1.93696640386" k="393.296"/>
   <Angle class1="ce" class2="c3_14" class3="hc_14" angle="1.93696640386" k="393.296"/>
-  <Angle class1="nh" class2="ce" class3="c3_2" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_3" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_4" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_5" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_6" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_7" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_8" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_9" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_10" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_11" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_12" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_13" angle="2.09264977314" k="550.27968"/>
   <Angle class1="nh" class2="ce" class3="c3_14" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_15" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_16" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_17" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_18" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_19" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="h4" class2="ce" class3="c3_2" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_3" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_4" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_5" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_6" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_7" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_8" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_9" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_10" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_11" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_12" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_13" angle="2.0435187547" k="382.451072"/>
   <Angle class1="h4" class2="ce" class3="c3_14" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_15" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_16" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_17" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_18" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_19" angle="2.0435187547" k="382.451072"/>
   <Angle class1="c_14" class2="c3_14" class3="ce" angle="1.95441969638" k="535.71936"/>
   <Angle class1="c3_14" class2="ce" class3="c" angle="2.04063896143" k="530.1128"/>
   <Angle class1="c3_14" class2="ce" class3="nh" angle="2.09264977314" k="550.27968"/>
   <Angle class1="c3_14" class2="ce" class3="h4" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="c3_14" class2="ce" class3="c3_2" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_14" class2="ce" class3="c3_3" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_14" class2="ce" class3="c3_4" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_14" class2="ce" class3="c3_5" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_14" class2="ce" class3="c3_6" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_14" class2="ce" class3="c3_7" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_14" class2="ce" class3="c3_8" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_14" class2="ce" class3="c3_9" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_14" class2="ce" class3="c3_10" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_14" class2="ce" class3="c3_11" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_14" class2="ce" class3="c3_12" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_14" class2="ce" class3="c3_13" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_14" class2="ce" class3="c3_15" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_14" class2="ce" class3="c3_16" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_14" class2="ce" class3="c3_17" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_14" class2="ce" class3="c3_18" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_14" class2="ce" class3="c3_19" angle="2.03854456633" k="522.280352"/>
   <Angle class1="hc_14" class2="c3_14" class3="ce" angle="1.93696640386" k="393.296"/>
   <Angle class1="hc_14" class2="c3_14" class3="ce" angle="1.93696640386" k="393.296"/>
-  </CustomAngleForce><CustomAngleForce energy="lambda15*k*(theta-angle)^2"><PerAngleParameter name="angle"/><PerAngleParameter name="k"/><GlobalParameter defaultValue="0.5" name="lambda15"/><Angle class1="c" class2="ce" class3="c3_2" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_3" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_4" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_5" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_6" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_7" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_8" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_9" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_10" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_11" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_12" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_13" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_14" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_15" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_16" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_17" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_18" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_19" angle="2.04063896143" k="530.1128"/>
+  </CustomAngleForce><CustomAngleForce energy="lambda15*k*(theta-angle)^2"><PerAngleParameter name="angle"/><PerAngleParameter name="k"/><GlobalParameter defaultValue="0.5" name="lambda15"/><Angle class1="c" class2="ce" class3="c3_15" angle="2.04063896143" k="530.1128"/>
   <Angle class1="ce" class2="c3_15" class3="c3_15" angle="1.93836266726" k="533.0416"/>
   <Angle class1="ce" class2="c3_15" class3="hc_15" angle="1.93696640386" k="393.296"/>
   <Angle class1="ce" class2="c3_15" class3="hc_15" angle="1.93696640386" k="393.296"/>
-  <Angle class1="nh" class2="ce" class3="c3_2" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_3" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_4" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_5" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_6" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_7" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_8" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_9" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_10" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_11" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_12" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_13" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_14" angle="2.09264977314" k="550.27968"/>
   <Angle class1="nh" class2="ce" class3="c3_15" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_16" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_17" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_18" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_19" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="h4" class2="ce" class3="c3_2" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_3" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_4" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_5" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_6" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_7" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_8" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_9" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_10" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_11" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_12" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_13" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_14" angle="2.0435187547" k="382.451072"/>
   <Angle class1="h4" class2="ce" class3="c3_15" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_16" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_17" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_18" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_19" angle="2.0435187547" k="382.451072"/>
   <Angle class1="c3_15" class2="c3_15" class3="ce" angle="1.93836266726" k="533.0416"/>
   <Angle class1="c3_15" class2="ce" class3="c" angle="2.04063896143" k="530.1128"/>
   <Angle class1="c3_15" class2="ce" class3="nh" angle="2.09264977314" k="550.27968"/>
   <Angle class1="c3_15" class2="ce" class3="h4" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="c3_15" class2="ce" class3="c3_2" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_15" class2="ce" class3="c3_3" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_15" class2="ce" class3="c3_4" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_15" class2="ce" class3="c3_5" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_15" class2="ce" class3="c3_6" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_15" class2="ce" class3="c3_7" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_15" class2="ce" class3="c3_8" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_15" class2="ce" class3="c3_9" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_15" class2="ce" class3="c3_10" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_15" class2="ce" class3="c3_11" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_15" class2="ce" class3="c3_12" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_15" class2="ce" class3="c3_13" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_15" class2="ce" class3="c3_14" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_15" class2="ce" class3="c3_16" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_15" class2="ce" class3="c3_17" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_15" class2="ce" class3="c3_18" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_15" class2="ce" class3="c3_19" angle="2.03854456633" k="522.280352"/>
   <Angle class1="hc_15" class2="c3_15" class3="ce" angle="1.93696640386" k="393.296"/>
   <Angle class1="hc_15" class2="c3_15" class3="ce" angle="1.93696640386" k="393.296"/>
-  </CustomAngleForce><CustomAngleForce energy="lambda16*k*(theta-angle)^2"><PerAngleParameter name="angle"/><PerAngleParameter name="k"/><GlobalParameter defaultValue="0.5" name="lambda16"/><Angle class1="c" class2="ce" class3="c3_2" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_3" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_4" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_5" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_6" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_7" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_8" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_9" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_10" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_11" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_12" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_13" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_14" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_15" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_16" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_17" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_18" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_19" angle="2.04063896143" k="530.1128"/>
+  </CustomAngleForce><CustomAngleForce energy="lambda16*k*(theta-angle)^2"><PerAngleParameter name="angle"/><PerAngleParameter name="k"/><GlobalParameter defaultValue="0.5" name="lambda16"/><Angle class1="c" class2="ce" class3="c3_16" angle="2.04063896143" k="530.1128"/>
   <Angle class1="ce" class2="c3_16" class3="c3_16" angle="1.93836266726" k="533.0416"/>
   <Angle class1="ce" class2="c3_16" class3="hc_16" angle="1.93696640386" k="393.296"/>
   <Angle class1="ce" class2="c3_16" class3="hc_16" angle="1.93696640386" k="393.296"/>
-  <Angle class1="nh" class2="ce" class3="c3_2" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_3" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_4" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_5" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_6" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_7" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_8" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_9" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_10" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_11" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_12" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_13" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_14" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_15" angle="2.09264977314" k="550.27968"/>
   <Angle class1="nh" class2="ce" class3="c3_16" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_17" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_18" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_19" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="h4" class2="ce" class3="c3_2" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_3" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_4" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_5" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_6" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_7" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_8" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_9" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_10" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_11" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_12" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_13" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_14" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_15" angle="2.0435187547" k="382.451072"/>
   <Angle class1="h4" class2="ce" class3="c3_16" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_17" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_18" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_19" angle="2.0435187547" k="382.451072"/>
   <Angle class1="c3_16" class2="c3_16" class3="ce" angle="1.93836266726" k="533.0416"/>
   <Angle class1="c3_16" class2="ce" class3="c" angle="2.04063896143" k="530.1128"/>
   <Angle class1="c3_16" class2="ce" class3="nh" angle="2.09264977314" k="550.27968"/>
   <Angle class1="c3_16" class2="ce" class3="h4" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="c3_16" class2="ce" class3="c3_2" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_16" class2="ce" class3="c3_3" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_16" class2="ce" class3="c3_4" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_16" class2="ce" class3="c3_5" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_16" class2="ce" class3="c3_6" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_16" class2="ce" class3="c3_7" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_16" class2="ce" class3="c3_8" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_16" class2="ce" class3="c3_9" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_16" class2="ce" class3="c3_10" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_16" class2="ce" class3="c3_11" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_16" class2="ce" class3="c3_12" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_16" class2="ce" class3="c3_13" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_16" class2="ce" class3="c3_14" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_16" class2="ce" class3="c3_15" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_16" class2="ce" class3="c3_17" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_16" class2="ce" class3="c3_18" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_16" class2="ce" class3="c3_19" angle="2.03854456633" k="522.280352"/>
   <Angle class1="hc_16" class2="c3_16" class3="ce" angle="1.93696640386" k="393.296"/>
   <Angle class1="hc_16" class2="c3_16" class3="ce" angle="1.93696640386" k="393.296"/>
-  </CustomAngleForce><CustomAngleForce energy="lambda17*k*(theta-angle)^2"><PerAngleParameter name="angle"/><PerAngleParameter name="k"/><GlobalParameter defaultValue="0.5" name="lambda17"/><Angle class1="c" class2="ce" class3="c3_2" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_3" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_4" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_5" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_6" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_7" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_8" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_9" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_10" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_11" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_12" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_13" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_14" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_15" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_16" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_17" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_18" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_19" angle="2.04063896143" k="530.1128"/>
+  </CustomAngleForce><CustomAngleForce energy="lambda17*k*(theta-angle)^2"><PerAngleParameter name="angle"/><PerAngleParameter name="k"/><GlobalParameter defaultValue="0.5" name="lambda17"/><Angle class1="c" class2="ce" class3="c3_17" angle="2.04063896143" k="530.1128"/>
   <Angle class1="ce" class2="c3_17" class3="cd_17" angle="1.96052834877" k="533.96208"/>
   <Angle class1="ce" class2="c3_17" class3="hc_17" angle="1.93696640386" k="393.296"/>
   <Angle class1="ce" class2="c3_17" class3="hc_17" angle="1.93696640386" k="393.296"/>
-  <Angle class1="nh" class2="ce" class3="c3_2" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_3" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_4" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_5" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_6" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_7" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_8" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_9" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_10" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_11" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_12" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_13" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_14" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_15" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_16" angle="2.09264977314" k="550.27968"/>
   <Angle class1="nh" class2="ce" class3="c3_17" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_18" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_19" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="h4" class2="ce" class3="c3_2" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_3" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_4" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_5" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_6" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_7" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_8" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_9" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_10" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_11" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_12" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_13" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_14" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_15" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_16" angle="2.0435187547" k="382.451072"/>
   <Angle class1="h4" class2="ce" class3="c3_17" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_18" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_19" angle="2.0435187547" k="382.451072"/>
   <Angle class1="cd_17" class2="c3_17" class3="ce" angle="1.96052834877" k="533.96208"/>
   <Angle class1="c3_17" class2="ce" class3="c" angle="2.04063896143" k="530.1128"/>
   <Angle class1="c3_17" class2="ce" class3="nh" angle="2.09264977314" k="550.27968"/>
   <Angle class1="c3_17" class2="ce" class3="h4" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="c3_17" class2="ce" class3="c3_2" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_17" class2="ce" class3="c3_3" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_17" class2="ce" class3="c3_4" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_17" class2="ce" class3="c3_5" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_17" class2="ce" class3="c3_6" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_17" class2="ce" class3="c3_7" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_17" class2="ce" class3="c3_8" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_17" class2="ce" class3="c3_9" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_17" class2="ce" class3="c3_10" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_17" class2="ce" class3="c3_11" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_17" class2="ce" class3="c3_12" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_17" class2="ce" class3="c3_13" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_17" class2="ce" class3="c3_14" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_17" class2="ce" class3="c3_15" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_17" class2="ce" class3="c3_16" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_17" class2="ce" class3="c3_18" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_17" class2="ce" class3="c3_19" angle="2.03854456633" k="522.280352"/>
   <Angle class1="hc_17" class2="c3_17" class3="ce" angle="1.93696640386" k="393.296"/>
   <Angle class1="hc_17" class2="c3_17" class3="ce" angle="1.93696640386" k="393.296"/>
-  </CustomAngleForce><CustomAngleForce energy="lambda18*k*(theta-angle)^2"><PerAngleParameter name="angle"/><PerAngleParameter name="k"/><GlobalParameter defaultValue="0.5" name="lambda18"/><Angle class1="c" class2="ce" class3="c3_2" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_3" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_4" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_5" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_6" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_7" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_8" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_9" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_10" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_11" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_12" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_13" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_14" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_15" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_16" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_17" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_18" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_19" angle="2.04063896143" k="530.1128"/>
+  </CustomAngleForce><CustomAngleForce energy="lambda18*k*(theta-angle)^2"><PerAngleParameter name="angle"/><PerAngleParameter name="k"/><GlobalParameter defaultValue="0.5" name="lambda18"/><Angle class1="c" class2="ce" class3="c3_18" angle="2.04063896143" k="530.1128"/>
   <Angle class1="ce" class2="c3_18" class3="c_18" angle="1.95441969638" k="535.71936"/>
   <Angle class1="ce" class2="c3_18" class3="hc_18" angle="1.93696640386" k="393.296"/>
   <Angle class1="ce" class2="c3_18" class3="hc_18" angle="1.93696640386" k="393.296"/>
-  <Angle class1="nh" class2="ce" class3="c3_2" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_3" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_4" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_5" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_6" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_7" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_8" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_9" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_10" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_11" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_12" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_13" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_14" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_15" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_16" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_17" angle="2.09264977314" k="550.27968"/>
   <Angle class1="nh" class2="ce" class3="c3_18" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_19" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="h4" class2="ce" class3="c3_2" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_3" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_4" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_5" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_6" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_7" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_8" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_9" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_10" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_11" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_12" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_13" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_14" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_15" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_16" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_17" angle="2.0435187547" k="382.451072"/>
   <Angle class1="h4" class2="ce" class3="c3_18" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_19" angle="2.0435187547" k="382.451072"/>
   <Angle class1="c_18" class2="c3_18" class3="ce" angle="1.95441969638" k="535.71936"/>
   <Angle class1="c3_18" class2="ce" class3="c" angle="2.04063896143" k="530.1128"/>
   <Angle class1="c3_18" class2="ce" class3="nh" angle="2.09264977314" k="550.27968"/>
   <Angle class1="c3_18" class2="ce" class3="h4" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="c3_18" class2="ce" class3="c3_2" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_18" class2="ce" class3="c3_3" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_18" class2="ce" class3="c3_4" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_18" class2="ce" class3="c3_5" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_18" class2="ce" class3="c3_6" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_18" class2="ce" class3="c3_7" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_18" class2="ce" class3="c3_8" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_18" class2="ce" class3="c3_9" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_18" class2="ce" class3="c3_10" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_18" class2="ce" class3="c3_11" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_18" class2="ce" class3="c3_12" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_18" class2="ce" class3="c3_13" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_18" class2="ce" class3="c3_14" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_18" class2="ce" class3="c3_15" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_18" class2="ce" class3="c3_16" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_18" class2="ce" class3="c3_17" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_18" class2="ce" class3="c3_19" angle="2.03854456633" k="522.280352"/>
   <Angle class1="hc_18" class2="c3_18" class3="ce" angle="1.93696640386" k="393.296"/>
   <Angle class1="hc_18" class2="c3_18" class3="ce" angle="1.93696640386" k="393.296"/>
-  </CustomAngleForce><CustomAngleForce energy="lambda19*k*(theta-angle)^2"><PerAngleParameter name="angle"/><PerAngleParameter name="k"/><GlobalParameter defaultValue="0.5" name="lambda19"/><Angle class1="c" class2="ce" class3="c3_2" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_3" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_4" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_5" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_6" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_7" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_8" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_9" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_10" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_11" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_12" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_13" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_14" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_15" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_16" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_17" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_18" angle="2.04063896143" k="530.1128"/>
-  <Angle class1="c" class2="ce" class3="c3_19" angle="2.04063896143" k="530.1128"/>
+  </CustomAngleForce><CustomAngleForce energy="lambda19*k*(theta-angle)^2"><PerAngleParameter name="angle"/><PerAngleParameter name="k"/><GlobalParameter defaultValue="0.5" name="lambda19"/><Angle class1="c" class2="ce" class3="c3_19" angle="2.04063896143" k="530.1128"/>
   <Angle class1="ce" class2="c3_19" class3="c3_19" angle="1.93836266726" k="533.0416"/>
   <Angle class1="ce" class2="c3_19" class3="hc_19" angle="1.93696640386" k="393.296"/>
   <Angle class1="ce" class2="c3_19" class3="hc_19" angle="1.93696640386" k="393.296"/>
-  <Angle class1="nh" class2="ce" class3="c3_2" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_3" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_4" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_5" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_6" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_7" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_8" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_9" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_10" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_11" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_12" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_13" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_14" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_15" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_16" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_17" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="nh" class2="ce" class3="c3_18" angle="2.09264977314" k="550.27968"/>
   <Angle class1="nh" class2="ce" class3="c3_19" angle="2.09264977314" k="550.27968"/>
-  <Angle class1="h4" class2="ce" class3="c3_2" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_3" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_4" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_5" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_6" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_7" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_8" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_9" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_10" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_11" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_12" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_13" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_14" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_15" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_16" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_17" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="h4" class2="ce" class3="c3_18" angle="2.0435187547" k="382.451072"/>
   <Angle class1="h4" class2="ce" class3="c3_19" angle="2.0435187547" k="382.451072"/>
   <Angle class1="c3_19" class2="c3_19" class3="ce" angle="1.93836266726" k="533.0416"/>
   <Angle class1="c3_19" class2="ce" class3="c" angle="2.04063896143" k="530.1128"/>
   <Angle class1="c3_19" class2="ce" class3="nh" angle="2.09264977314" k="550.27968"/>
   <Angle class1="c3_19" class2="ce" class3="h4" angle="2.0435187547" k="382.451072"/>
-  <Angle class1="c3_19" class2="ce" class3="c3_2" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_19" class2="ce" class3="c3_3" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_19" class2="ce" class3="c3_4" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_19" class2="ce" class3="c3_5" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_19" class2="ce" class3="c3_6" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_19" class2="ce" class3="c3_7" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_19" class2="ce" class3="c3_8" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_19" class2="ce" class3="c3_9" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_19" class2="ce" class3="c3_10" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_19" class2="ce" class3="c3_11" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_19" class2="ce" class3="c3_12" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_19" class2="ce" class3="c3_13" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_19" class2="ce" class3="c3_14" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_19" class2="ce" class3="c3_15" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_19" class2="ce" class3="c3_16" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_19" class2="ce" class3="c3_17" angle="2.03854456633" k="522.280352"/>
-  <Angle class1="c3_19" class2="ce" class3="c3_18" angle="2.03854456633" k="522.280352"/>
   <Angle class1="hc_19" class2="c3_19" class3="ce" angle="1.93696640386" k="393.296"/>
   <Angle class1="hc_19" class2="c3_19" class3="ce" angle="1.93696640386" k="393.296"/>
   </CustomAngleForce><HarmonicAngleForce>
