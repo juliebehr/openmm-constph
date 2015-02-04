@@ -221,7 +221,7 @@ class XMLmodifier(Object):
                         if dihedral == []:
                             dihedral = root.xpath(u'//Improper[@class1=\'%s\'][@class2=\'%s\'][@class3=\'%s\'][@class4=\'%s\']' %(oldclass1, oldclass2, oldclass3, oldclass4))
                         if dihedral == []:
-                            dihedral = root.xpath(u'//Imroper[@class1=\'%s\'][@class2=\'%s\'][@class3=\'%s\'][@class4=\'%s\']' %(oldclass4, oldclass3, oldclass2, oldclass1))
+                            dihedral = root.xpath(u'//Improper[@class1=\'%s\'][@class2=\'%s\'][@class3=\'%s\'][@class4=\'%s\']' %(oldclass4, oldclass3, oldclass2, oldclass1))
                         if dihedral == []:
                             continue
                         dihedral = dihedral[0]
