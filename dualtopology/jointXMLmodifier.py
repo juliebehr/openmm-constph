@@ -148,11 +148,11 @@ class XMLmodifier(object):
 
         # add subelements for the parameters
         angle = custom_angle_force.makeelement('PerAngleParameter',attrib={'name':"angle"})
-        custom_angle_force.insert(0,angle)
+        custom_angle_force.append(angle)
         k = custom_angle_force.makeelement('PerAngleParameter',attrib={'name':"k"})
-        custom_angle_force.insert(0,k)
+        custom_angle_force.append(k)
         scale = custom_angle_force.makeelement('GlobalParameter',attrib={ 'name':scale_factor, 'defaultValue':"0.5"})
-        custom_angle_force.insert(0,scale)
+        custom_angle_force.append(scale)
 
         for atom1 in self.all_bonds.keys():
             if atom1 not in molecule_atom_indices:
@@ -187,7 +187,7 @@ class XMLmodifier(object):
                     newangle.attrib['class3'] = newclass3
                     if newclass1 != oldclass1 and newclass2 != oldclass2 and newclass3 != oldclass3:
                         # add to regular angleforce
-                        angle.addnext(newangle)
+                        angleforce.append(newangle)
                     else:
                         # add to custom_angle_force
                         print("custom angle force entry made!")
@@ -210,11 +210,11 @@ class XMLmodifier(object):
         # add subelements for the parameters
         # CURRENTLY UNSURE ABOUT THE MULTIPLE SETS OF PARAMETERS ISSUE
         k = custom_torsion_force.makeelement('PerAngleParameter',attrib={'name':"k"})
-        custom_torsion_force.insert(0,k)
+        custom_torsion_force.append(k)
         periodicity = custom_torsion_force.makeelement('PerAngleParameter',attrib={'name':"periodicity"})
-        custom_torsion_force.insert(0,periodicity)
+        custom_torsion_force.append(periodicity)
         phase = custom_torsion_force.makeelement('PerAngleParameter',attrib={'name':"phase"})
-        custom_torsion_force.insert(0,phase) 
+        custom_torsion_force.append(phase) 
 
         for atom1 in self.all_bonds.keys():
             if atom1 not in molecule_atom_indices:
@@ -261,7 +261,7 @@ class XMLmodifier(object):
                         newdihedral.attrib['class4'] = newclass4
                         if newclass1 != oldclass1 and newclass2 != oldclass2 and newclass3 != oldclass3 and newclass4 != oldclass4:
                             # add to regular torsionforce
-                            dihedral.addnext(newdihedral)
+                            torsionforce.append(newdihedral)
                         else:
                             # add to custom_torsion_force
                             print("custom torsion entry made!")
