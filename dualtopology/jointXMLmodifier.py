@@ -86,11 +86,18 @@ class XMLmodifier(object):
 
         # add entries to harmonic bond force with modified atom classes
         # COMPLETE
+        self.all_bonds = {}
         for residue in list(residues):
             for element in list(residue):
                 if element.tag == 'Bond':
                     atom1 = int(element.values()[0])
                     atom2 = int(element.values()[1])
+                    if not self.all_bonds.has_key(atom1):
+                        self.all_bonds[atom1] = []
+                    if not self.all_bonds.has_key(atom2):
+                        self.all_bonds[atom2] = []
+                    self.all_bonds[atom1].append(atom2)
+                    self.all_bonds[atom2].append(atom1)
                     newclass1 = save_index_to_class[atom1]
                     newclass2 = save_index_to_class[atom2]
                     oldclass1 = save_real_classes[newclass1]
@@ -148,17 +155,21 @@ class XMLmodifier(object):
         scale = custom_angle_force.makeelement('GlobalParameter',attrib={ 'name':scale_factor, 'defaultValue':"0.5"}) # lambda is a python thing already?
         custom_angle_force.insert(0,scale)
 
-        for atom1 in molecule_atom_indices:
+        for atom1 in self.all_bonds.keys():
+            if atom1 not in molecule_atom_indices:
+                continue
             print("finding angles with atom "+str(atom1))
             newclass1 = save_index_to_class[atom1]
             oldclass1 = save_real_classes[newclass1]
-            for atom2 in molecule_atom_indices:
-                if atom2 == atom1:
-                    continue # just realized it's actually probably easy to pick out real angles
+            for atom2 in self.all_bonds[atom1]:
+                if atom2 not in molecule_atom_indices:
+                    continue
                 newclass2 = save_index_to_class[atom2]
                 oldclass2 = save_real_classes[newclass2]
-                for atom3 in molecule_atom_indices:
-                    if atom3 == atom1 or atom3 == atom2:
+                for atom3 in self.all_bonds[atom2]:
+                    if atom2 not in molecule_atom_indices:
+                        continue
+                    if atom3 == atom1:
                         continue
                     newclass3 = save_index_to_class[atom3]
                     oldclass3 = save_real_classes[newclass3]
@@ -207,22 +218,28 @@ class XMLmodifier(object):
         phase = custom_torsion_force.makeelement('PerAngleParameter',attrib={'name':"phase"})
         custom_torsion_force.insert(0,phase) 
 
-        for atom1 in molecule_atom_indices:
+        for atom1 in self.all_bonds.keys():
+            if atom1 not in molecule_atom_indices:
+                continue
             print("finding dihedrals with atom "+str(atom1))
             newclass1 = save_index_to_class[atom1]
             oldclass1 = save_real_classes[newclass1]
-            for atom2 in molecule_atom_indices:
-                if atom2 == atom1:
+            for atom2 in self.all_bonds[atom1]:
+                if atom2 not in molecule_atom_indices:
                     continue
                 newclass2 = save_index_to_class[atom2]
                 oldclass2 = save_real_classes[newclass2]
-                for atom3 in molecule_atom_indices:
-                    if atom3 == atom1 or atom3 == atom2:
+                for atom3 in self.all_bonds[atom2]:
+                    if atom3 not in molecule_atom_indices:
+                        continue
+                    if atom3 == atom1:
                         continue
                     newclass3 = save_index_to_class[atom3]
                     oldclass3 = save_real_classes[newclass3]
-                    for atom4 in molecule_atom_indices:
-                        if atom4 == atom1 or atom4 == atom2 or atom4 == atom3:
+                    for atom4 in self.all_bonds[atom3]:
+                        if atom4 not in molecule_atom_indices:
+                            continue
+                        if atom4 == atom1 or atom4 == atom2:
                             continue
                         newclass4 = save_index_to_class[atom4]
                         oldclass4 = save_real_classes[newclass4]
