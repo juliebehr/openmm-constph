@@ -1,7 +1,7 @@
 from lxml import etree
 import copy
 
-class XMLmodifier(Object):
+class XMLmodifier(object):
     def __init__(self, ffxml_filename, each_molecule_N):
         """
         """
@@ -115,7 +115,7 @@ class XMLmodifier(Object):
             end_index = start_end_indices[1]+1
 
             molecule_atom_indices = range(self.substructure_length+1)
-            molecule_atom_indices.extend(range(start_index, end_index)
+            molecule_atom_indices.extend(range(start_index, end_index))
             scale_factor = "lambda"+str(i)
             self.customangleforce(scale_factor, molecule_atom_indices)
             self.customtorsionforce(scale_factor, molecule_atom_indices)
@@ -230,7 +230,7 @@ class XMLmodifier(Object):
                         newdihedral.attrib['class2'] = newclass2
                         newdihedral.attrib['class3'] = newclass3
                         newdihedral.attrib['class4'] = newclass4
-                        if newclass1 != oldclass1 and newclass2 != oldclass2 and newclass3 != oldclass3 and newclass 4 != oldclass4:
+                        if newclass1 != oldclass1 and newclass2 != oldclass2 and newclass3 != oldclass3 and newclass4 != oldclass4:
                             # add to regular torsionforce
                             dihedral.addnext(newdihedral)
                         else:
