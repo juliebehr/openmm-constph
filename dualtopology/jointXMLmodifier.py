@@ -112,7 +112,7 @@ class XMLmodifier(object):
                     newbond = copy.deepcopy(bond)
                     newbond.attrib['class1'] = newclass1
                     newbond.attrib['class2'] = newclass2
-                    bond.addnext(newbond)
+                    self.bondforce.append(newbond)
 
 
     def addcustomforces(self):
@@ -164,7 +164,7 @@ class XMLmodifier(object):
                 newclass2 = save_index_to_class[atom2]
                 oldclass2 = save_real_classes[newclass2]
                 for atom3 in self.all_bonds[atom2]:
-                    if atom2 not in molecule_atom_indices:
+                    if atom3 not in molecule_atom_indices:
                         continue
                     if atom3 == atom1:
                         continue
