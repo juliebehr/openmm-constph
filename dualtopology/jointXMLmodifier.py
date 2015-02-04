@@ -143,16 +143,15 @@ class XMLmodifier(object):
         save_real_classes = self.save_real_classes
 
         # create the custom angle force element
-        custom_angle_force = copy.deepcopy(angleforce)
-        custom_angle_force.tag = 'CustomAngleForce'
-        custom_angle_force.attrib['energy'] = scale_factor+"*k*(theta-angle)^2" # this can't be scale though it has to be a variable somehow?
+        custom_angle_force = root.makeelement('CustomAngleForce', attrib={})
+        custom_angle_force.attrib['energy'] = scale_factor+"*k*(theta-angle)^2"
 
         # add subelements for the parameters
         angle = custom_angle_force.makeelement('PerAngleParameter',attrib={'name':"angle"})
         custom_angle_force.insert(0,angle)
         k = custom_angle_force.makeelement('PerAngleParameter',attrib={'name':"k"})
         custom_angle_force.insert(0,k)
-        scale = custom_angle_force.makeelement('GlobalParameter',attrib={ 'name':scale_factor, 'defaultValue':"0.5"}) # lambda is a python thing already?
+        scale = custom_angle_force.makeelement('GlobalParameter',attrib={ 'name':scale_factor, 'defaultValue':"0.5"})
         custom_angle_force.insert(0,scale)
 
         for atom1 in self.all_bonds.keys():
@@ -205,8 +204,7 @@ class XMLmodifier(object):
         save_real_classes = self.save_real_classes
 
         # create the custom torsion
-        custom_torsion_force = copy.deepcopy(torsionforce)
-        custom_torsion_force.tag = 'CustomTorsionForce'
+        custom_torsion_force = root.makeelement('CustomTorsionForce', attrib={})
         custom_torsion_force.attrib['energy'] = scale_factor+"*k*(1+cos(periodicity*theta-phase))"
 
         # add subelements for the parameters
@@ -284,9 +282,8 @@ class XMLmodifier(object):
 
         # assuming the energy expression gets in there right this is g2g:
         for idx, nonbonded_particle in enumerate(list(custom_nonbonded_force)):
-            if idx > self.substructure_length:
-                if idx not in range(start_index, end_index):
-                    custom_nonbonded_force.remove(nonbonded_particle)
+            if idx not in range(start_index, end_index):
+                custom_nonbonded_force.remove(nonbonded_particle)
         nonbonded.addprevious(custom_nonbonded_force)
 
 
