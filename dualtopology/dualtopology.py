@@ -340,6 +340,7 @@ class DualTopology(object):
                         fnew.write(subline)
                         line = fdual.readline()
                         subline = fsub.readline()
+                    fnew.write(line)
                     for line in fdual.readlines():
                         fnew.write(line)
 

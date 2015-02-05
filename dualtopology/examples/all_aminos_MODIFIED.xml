@@ -1,4 +1,4 @@
-<!-- Time and parameters of origin: --><!-- 2015-02-04 18:13:48.061832 --><!--  --><ForceField>
+<!-- Time and parameters of origin: --><!-- 2015-02-04 19:39:50.118737 --><!--  --><ForceField>
  <AtomTypes>
   <Type name="all_aminos-0-C1" class="c" element="C" mass="12.01078"/>
   <Type name="all_aminos-0-C2" class="ce" element="C" mass="12.01078"/>
@@ -421,6 +421,7 @@
    <Bond from="2" to="6"/>
    <Bond from="2" to="7"/>
    <Bond from="4" to="8"/>
+   <Bond from="1" to="9"/>
    <Bond from="10" to="11"/>
    <Bond from="10" to="12"/>
    <Bond from="1" to="12"/>
@@ -1431,7 +1432,8 @@
   <Bond class1="cf" class2="ss" length="0.17906" k="203844.48"/>
   <Bond class1="cq" class2="na" length="0.1384" k="351874.4"/>
   <Bond class1="cq" class2="nb" length="0.13398" k="407270.56"/>
- <Bond class1="c3_2" class2="c3_2" length="0.1535" k="253634.08"/>
+ <Bond class1="ce" class2="ha_1" length="0.1089" k="285767.2"/>
+  <Bond class1="c3_2" class2="c3_2" length="0.1535" k="253634.08"/>
   <Bond class1="c3_2" class2="c3_2" length="0.1535" k="253634.08"/>
   <Bond class1="ce" class2="c3_2" length="0.1505" k="277231.84"/>
   <Bond class1="c3_2" class2="c3_2" length="0.1535" k="253634.08"/>
@@ -1632,7 +1634,13 @@
   <Bond class1="c3_19" class2="hc_19" length="0.1092" k="282252.64"/>
   <Bond class1="oh_19" class2="ho_19" length="0.0974" k="309281.28"/>
   </HarmonicBondForce>
- <CustomAngleForce energy="lambda1*k*(theta-angle)^2"><PerAngleParameter name="angle"/><PerAngleParameter name="k"/><GlobalParameter defaultValue="0.5" name="lambda1"/></CustomAngleForce><CustomAngleForce energy="lambda2*k*(theta-angle)^2"><PerAngleParameter name="angle"/><PerAngleParameter name="k"/><GlobalParameter defaultValue="0.5" name="lambda2"/><Angle class1="c" class2="ce" class3="c3_2" angle="2.04063896143" k="530.1128"/>
+ <CustomAngleForce energy="lambda1*k*(theta-angle)^2"><PerAngleParameter name="angle"/><PerAngleParameter name="k"/><GlobalParameter defaultValue="0.5" name="lambda1"/><Angle class1="c" class2="ce" class3="ha_1" angle="2.04657308089" k="389.86512"/>
+  <Angle class1="nh" class2="ce" class3="ha_1" angle="2.00695410687" k="423.58816"/>
+  <Angle class1="h4" class2="ce" class3="ha_1" angle="2.05337986497" k="318.126256"/>
+  <Angle class1="ha_1" class2="ce" class3="c" angle="2.04657308089" k="389.86512"/>
+  <Angle class1="ha_1" class2="ce" class3="nh" angle="2.00695410687" k="423.58816"/>
+  <Angle class1="ha_1" class2="ce" class3="h4" angle="2.05337986497" k="318.126256"/>
+  </CustomAngleForce><CustomAngleForce energy="lambda2*k*(theta-angle)^2"><PerAngleParameter name="angle"/><PerAngleParameter name="k"/><GlobalParameter defaultValue="0.5" name="lambda2"/><Angle class1="c" class2="ce" class3="c3_2" angle="2.04063896143" k="530.1128"/>
   <Angle class1="ce" class2="c3_2" class3="c3_2" angle="1.93836266726" k="533.0416"/>
   <Angle class1="ce" class2="c3_2" class3="hc_2" angle="1.93696640386" k="393.296"/>
   <Angle class1="ce" class2="c3_2" class3="hc_2" angle="1.93696640386" k="393.296"/>
@@ -6099,7 +6107,9 @@
   <Angle class1="n3" class2="sy" class3="nf" angle="1.78721715404" k="555.30048"/>
   <Angle class1="c" class2="ce" class3="h4" angle="2.04657308089" k="389.86512"/>
   <Angle class1="h4" class2="ce" class3="nh" angle="2.00695410687" k="423.58816"/>
+  <Angle class1="h4" class2="ce" class3="ha" angle="2.05337986497" k="318.126256"/>
   <Angle class1="c3" class2="ce" class3="h4" angle="2.0435187547" k="382.451072"/>
+  <Angle class1="c3" class2="ce" class3="ha" angle="2.0435187547" k="382.451072"/>
   <Angle class1="c3" class2="ce" class3="c3" angle="2.03854456633" k="522.280352"/>
   <Angle class1="cd" class2="c3" class3="ce" angle="1.96052834877" k="533.96208"/>
   <Angle class1="ce" class2="c3" class3="sh" angle="1.93906079897" k="517.72816"/>
@@ -6656,7 +6666,11 @@
   <Angle class1="hc_19" class2="c3_19" class3="hc_19" angle="1.89106424454" k="329.95024"/>
   <Angle class1="ho_19" class2="oh_19" class3="c_19" angle="1.87396001787" k="428.35792"/>
   </HarmonicAngleForce>
- <CustomTorsionForce energy="lambda1*k*(1+cos(periodicity*theta-phase))"><PerAngleParameter name="k"/><PerAngleParameter name="periodicity"/><PerAngleParameter name="phase"/></CustomTorsionForce><CustomTorsionForce energy="lambda2*k*(1+cos(periodicity*theta-phase))"><PerAngleParameter name="k"/><PerAngleParameter name="periodicity"/><PerAngleParameter name="phase"/><Proper class1="c" class2="ce" class3="c3_2" class4="c3_2" periodicity1="3" phase1="0.0" k1="0.0"/>
+ <CustomTorsionForce energy="lambda1*k*(1+cos(periodicity*theta-phase))"><PerAngleParameter name="k"/><PerAngleParameter name="periodicity"/><PerAngleParameter name="phase"/><Proper class1="hn" class2="nh" class3="ce" class4="ha_1" periodicity1="2" phase1="3.14159265359" k1="4.3932"/>
+  <Proper class1="hn" class2="nh" class3="ce" class4="ha_1" periodicity1="2" phase1="3.14159265359" k1="4.3932"/>
+  <Proper class1="ha_1" class2="ce" class3="nh" class4="hn" periodicity1="2" phase1="3.14159265359" k1="4.3932"/>
+  <Proper class1="ha_1" class2="ce" class3="nh" class4="hn" periodicity1="2" phase1="3.14159265359" k1="4.3932"/>
+  </CustomTorsionForce><CustomTorsionForce energy="lambda2*k*(1+cos(periodicity*theta-phase))"><PerAngleParameter name="k"/><PerAngleParameter name="periodicity"/><PerAngleParameter name="phase"/><Proper class1="c" class2="ce" class3="c3_2" class4="c3_2" periodicity1="3" phase1="0.0" k1="0.0"/>
   <Proper class1="c" class2="ce" class3="c3_2" class4="hc_2" periodicity1="3" phase1="3.14159265359" k1="1.58992" periodicity2="1" phase2="0.0" k2="4.8116"/>
   <Proper class1="c" class2="ce" class3="c3_2" class4="hc_2" periodicity1="3" phase1="3.14159265359" k1="1.58992" periodicity2="1" phase2="0.0" k2="4.8116"/>
   <Proper class1="nh" class2="ce" class3="c3_2" class4="c3_2" periodicity1="3" phase1="0.0" k1="0.0"/>
@@ -7054,34 +7068,43 @@
   <Proper class1="hc_19" class2="c3_19" class3="ce" class4="h4" periodicity1="3" phase1="0.0" k1="0.0"/>
   </CustomTorsionForce><PeriodicTorsionForce>
   <Proper class1="c" class2="c3" class3="ce" class4="c3" periodicity1="3" phase1="0.0" k1="0.0"/>
+  <Proper class1="c" class2="c3" class3="ce" class4="ha" periodicity1="3" phase1="0.0" k1="0.0"/>
   <Proper class1="c" class2="c3" class3="ce" class4="h4" periodicity1="3" phase1="0.0" k1="0.0"/>
   <Proper class1="c" class2="c3" class3="ce" class4="nh" periodicity1="3" phase1="0.0" k1="0.0"/>
   <Proper class1="c" class2="c3" class3="ce" class4="c" periodicity1="3" phase1="0.0" k1="0.0"/>
   <Proper class1="sh" class2="c3" class3="ce" class4="c3" periodicity1="3" phase1="0.0" k1="0.0"/>
+  <Proper class1="sh" class2="c3" class3="ce" class4="ha" periodicity1="3" phase1="0.0" k1="0.0"/>
   <Proper class1="sh" class2="c3" class3="ce" class4="h4" periodicity1="3" phase1="0.0" k1="0.0"/>
   <Proper class1="sh" class2="c3" class3="ce" class4="nh" periodicity1="3" phase1="0.0" k1="0.0"/>
   <Proper class1="sh" class2="c3" class3="ce" class4="c" periodicity1="3" phase1="0.0" k1="0.0"/>
   <Proper class1="h1" class2="c3" class3="ce" class4="c3" periodicity1="3" phase1="0.0" k1="0.0"/>
+  <Proper class1="h1" class2="c3" class3="ce" class4="ha" periodicity1="3" phase1="0.0" k1="0.0"/>
   <Proper class1="h1" class2="c3" class3="ce" class4="h4" periodicity1="3" phase1="0.0" k1="0.0"/>
   <Proper class1="h1" class2="c3" class3="ce" class4="nh" periodicity1="3" phase1="0.0" k1="0.0"/>
   <Proper class1="h1" class2="c3" class3="ce" class4="c" periodicity1="3" phase1="3.14159265359" k1="1.58992" periodicity2="1" phase2="0.0" k2="4.8116"/>
   <Proper class1="oh" class2="c3" class3="ce" class4="c3" periodicity1="3" phase1="0.0" k1="0.0"/>
+  <Proper class1="oh" class2="c3" class3="ce" class4="ha" periodicity1="3" phase1="0.0" k1="0.0"/>
   <Proper class1="oh" class2="c3" class3="ce" class4="h4" periodicity1="3" phase1="0.0" k1="0.0"/>
   <Proper class1="oh" class2="c3" class3="ce" class4="nh" periodicity1="3" phase1="0.0" k1="0.0"/>
   <Proper class1="oh" class2="c3" class3="ce" class4="c" periodicity1="3" phase1="0.0" k1="0.0"/>
   <Proper class1="cd" class2="c3" class3="ce" class4="c3" periodicity1="3" phase1="0.0" k1="0.0"/>
+  <Proper class1="cd" class2="c3" class3="ce" class4="ha" periodicity1="3" phase1="0.0" k1="0.0"/>
   <Proper class1="cd" class2="c3" class3="ce" class4="h4" periodicity1="3" phase1="0.0" k1="0.0"/>
   <Proper class1="cd" class2="c3" class3="ce" class4="nh" periodicity1="3" phase1="0.0" k1="0.0"/>
   <Proper class1="cd" class2="c3" class3="ce" class4="c" periodicity1="3" phase1="0.0" k1="0.0"/>
   <Proper class1="ca" class2="ca" class3="cd" class4="c3" periodicity1="2" phase1="3.14159265359" k1="2.9288"/>
   <Proper class1="ca" class2="ca" class3="cd" class4="cc" periodicity1="2" phase1="3.14159265359" k1="2.9288"/>
   <Proper class1="ca" class2="c3" class3="ce" class4="c3" periodicity1="3" phase1="0.0" k1="0.0"/>
+  <Proper class1="ca" class2="c3" class3="ce" class4="ha" periodicity1="3" phase1="0.0" k1="0.0"/>
   <Proper class1="ca" class2="c3" class3="ce" class4="h4" periodicity1="3" phase1="0.0" k1="0.0"/>
   <Proper class1="ca" class2="c3" class3="ce" class4="nh" periodicity1="3" phase1="0.0" k1="0.0"/>
   <Proper class1="ca" class2="c3" class3="ce" class4="c" periodicity1="3" phase1="0.0" k1="0.0"/>
   <Proper class1="hc" class2="c3" class3="ce" class4="c3" periodicity1="3" phase1="0.0" k1="0.0"/>
   <Proper class1="c3" class2="c3" class3="ce" class4="c3" periodicity1="3" phase1="0.0" k1="0.0"/>
+  <Proper class1="hc" class2="c3" class3="ce" class4="ha" periodicity1="3" phase1="0.0" k1="0.0"/>
+  <Proper class1="c3" class2="c3" class3="ce" class4="ha" periodicity1="3" phase1="0.0" k1="0.0"/>
   <Proper class1="c3" class2="ce" class3="nh" class4="hn" periodicity1="2" phase1="3.14159265359" k1="4.3932"/>
+  <Proper class1="ha" class2="ce" class3="nh" class4="hn" periodicity1="2" phase1="3.14159265359" k1="4.3932"/>
   <Proper class1="hc" class2="c3" class3="ce" class4="h4" periodicity1="3" phase1="0.0" k1="0.0"/>
   <Proper class1="c3" class2="c3" class3="ce" class4="h4" periodicity1="3" phase1="0.0" k1="0.0"/>
   <Proper class1="h4" class2="ce" class3="nh" class4="hn" periodicity1="2" phase1="3.14159265359" k1="4.3932"/>
