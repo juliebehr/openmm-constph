@@ -19,11 +19,11 @@ class DualTopology(object):
     correct atom types and bonds in one lump (no N1 N2 differentiation).
     Also contains a list of tuples each_molecule_N which describe the first and last index of atoms in the
     combined topology that came from the same original topology
-    Can correctly save a .pdb file of dual topology
+    Can correctly save a .pdb file of dual topology lump
 
     Future: Figure out why tf the substructure has an extra atom in it
-            Define and save atom classes, because they'll be messed up with additional things bonded to them
-            How to create ffxml
+            DONE - Define and save atom classes, because they'll be messed up with additional things bonded to them
+            DONE(ish) - How to create ffxml
                 - what structure should the ffxml have
                 - logistically how can it be done
             DONE - CHANGED TO CAS FOR NOW: Input type needs to be changed - smiles won't work for amino acids, e.g.
@@ -31,16 +31,43 @@ class DualTopology(object):
                 - but do amino acids have cas numbers?
                 - could either use cas, if amino acids have them and just change the example ligands, or
                 - use something else to create an OEMol and just take list of OEMols directly
-            Should the ffxml itself be changed, or something else (for instance this object, other) have the titratable 
+            DONE (2 options) - Should the ffxml itself be changed, or something else (for instance this object, other) have the titratable 
                 information and send it over to openmm
-            Fix the generation of .xml - shouldn't be doing that readlines nonsense (it's there now because antechamber tries
+            MAYBE KEEP IT ACTUALLY - Fix the generation of .xml - shouldn't be doing that readlines nonsense (it's there now because antechamber tries
                 to correct atom types based on what they're bonded to)
-            Investigate how this all works with amino acids and their dangling bonds
+    *****   BIGGER POINT: INPUT WON'T BE A NEW LONE MOLECULE BUT PART OF A SYSTEM Investigate how this all works with amino acids and their dangling bonds
+
+    Class Variables: (not sure this is comprehensive)
+      self.cas_or_aa (list of strings) 
+        input representing molecules to be combined 
+      self.smiles_strings (list of strings) 
+        smiles representation of molecules to be combined
+      self.ligands (list of OEMol) 
+        openeye molecule representation of molecules to be combined
+      self.title (string) 
+        used as an identifier for input group of molecules
+      self.min_atoms (int) 
+        minimum number of common atoms to constitute a substructure match (default: 6)
+      self.common_substructure (OEMol) 
+        openeye molecule representing the common substructure
+      self.dual_topology (OEMol) 
+        openeye molecule combining all input molecules
+      self.each_molecule_N (list of tuples) 
+        list of N+1 tuples containing (first atom index, last atom index) for the atoms in the dual topology that come from
+        [0] substructure and [1:] each molecule
+      self.mapping_dictionaries (list of dictionaries) 
+        a list of N+1 dictionaries ([0] is the common substructure, and the subsequent list entries each represent 
+        an input molecule) which map {atom index in the molecule : atom index in the dual topology OEMol}
+      self.pdb_filename (string) 
+        name of file to save pdb
+      self.ffxml_filename (string) 
+        name of file to save initial xml (will not contain custom force entries)
+    
 
     Requires:
       openeye.oechem
       gaff2xml
-      trustbutverify.cirpy
+      trustbutverify.cirpy (just copy it into here) (also probably won't need it at all with normal inputs from a system)
     """
 
     def __init__(self, cas_or_aa, min_atoms=6):
@@ -53,6 +80,19 @@ class DualTopology(object):
 
         Optional Arguments
             min_atoms (int) - a minimum number of atoms for substructure match (default: 6)
+
+        Creates class variables:
+            self.cas_or_aa (list of strings) 
+              input representing molecules to be combined 
+            self.smiles_strings (list of strings) 
+              smiles representation of molecules to be combined
+            self.ligands (list of OEMol) 
+              openeye molecule representation of molecules to be combined
+            self.title (string) 
+              used as an identifier for input group of molecules
+            self.min_atoms (int) 
+              minimum number of common atoms to constitute a substructure match (default: 6)
+
         """
 
         self.cas_or_aa = cas_or_aa
@@ -82,7 +122,12 @@ class DualTopology(object):
         Will not run if self.common_substructure is not None
 
         Arguments
-          (none)
+            (none)
+
+        Creates class variables:
+            self.common_substructure (OEMol) 
+              openeye molecule representing the common substructure
+
         """
         if self.common_substructure is not None:
             return
@@ -134,7 +179,18 @@ class DualTopology(object):
         Will not run if self.dual_topology is not None.
 
         Arguments:
-          (none)
+            (none)
+
+        Creates class variables:
+            self.dual_topology (OEMol) 
+              openeye molecule combining all input molecules
+            self.each_molecule_N (list of tuples) 
+              list of N+1 tuples containing (first atom index, last atom index) for the atoms in the dual topology that come from
+              [0] substructure and [1:] each molecule
+            self.mapping_dictionaries (list of dictionaries) 
+              a list of N+1 dictionaries ([0] is the common substructure, and the subsequent list entries each represent 
+              an input molecule) which map {atom index in the molecule : atom index in the dual topology OEMol}
+
         """
 
         if self.dual_topology is not None:
@@ -235,12 +291,19 @@ class DualTopology(object):
         Creates a .pdb file representative of the dual topology and a corresponding .xml file.
 
         Arguments:
-          pdb_filename (optional) the name of the pdb file to save to
-          ffxml_filename (optional) the name of the xml file to save to
+            pdb_filename (optional) the name of the pdb file to save to
+            ffxml_filename (optional) the name of the xml file to save to
 
         Will not overwrite an existing ffxml file with the same file name.
 
         Requires mdtraj and antechamber
+
+        Creates class variables:
+            self.pdb_filename (string) 
+              name of file to save pdb
+            self.ffxml_filename (string) 
+              name of file to save initial xml (will not contain custom force entries)
+
         """
         try:
             import mdtraj as md
