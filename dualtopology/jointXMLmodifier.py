@@ -35,6 +35,8 @@ class XMLmodifier(object):
 
 
     def fixatomtypes(self):
+        """
+        """
         print("Saving real atom class references")
         atomtypes = self.atomtypes
         each_molecule_N = self.each_molecule_N
@@ -78,7 +80,9 @@ class XMLmodifier(object):
 
 
     def addbondforces(self):
-        "Recreating bond forces for new atom classes"
+        """
+        """
+        print("Recreating bond forces for new atom classes")
         root = self.root
         residues = self.residues
         save_index_to_class = self.save_index_to_class
@@ -116,6 +120,8 @@ class XMLmodifier(object):
 
 
     def addcustomforces(self):
+        """
+        """
         each_molecule_N = self.each_molecule_N
 
         for i, start_end_indices in enumerate(each_molecule_N):
@@ -129,29 +135,19 @@ class XMLmodifier(object):
             molecule_atom_indices = range(self.substructure_length+1)
             molecule_atom_indices.extend(range(start_index, end_index))
             scale_factor = "lambda"+str(i)
-            self.customangleforce(scale_factor, molecule_atom_indices)
-            self.customtorsionforce(scale_factor, molecule_atom_indices)
+            self.addangleforce(molecule_atom_indices)
+            self.addtorsionforce(molecule_atom_indices)
 
             # TO DO: ADD CUSTOM NONBONDED FORCE CAPABILITY
             #self.customnonbondedforce(scale_factor, molecule_atom_indices)
 
-    def customangleforce(self, scale_factor, molecule_atom_indices):
+    def addangleforce(self, molecule_atom_indices):
+        """
+        """
         angleforce = self.angleforce
         root = self.root
         save_index_to_class = self.save_index_to_class
         save_real_classes = self.save_real_classes
-
-        # create the custom angle force element
-        custom_angle_force = root.makeelement('CustomAngleForce', attrib={})
-        custom_angle_force.attrib['energy'] = scale_factor+"*k*(theta-angle)^2"
-
-        # add subelements for the parameters
-        angle = custom_angle_force.makeelement('PerAngleParameter',attrib={'name':"angle"})
-        custom_angle_force.append(angle)
-        k = custom_angle_force.makeelement('PerAngleParameter',attrib={'name':"k"})
-        custom_angle_force.append(k)
-        scale = custom_angle_force.makeelement('GlobalParameter',attrib={ 'name':scale_factor, 'defaultValue':"0.5"})
-        custom_angle_force.append(scale)
 
         for atom1 in self.all_bonds.keys():
             if atom1 not in molecule_atom_indices:
@@ -183,34 +179,16 @@ class XMLmodifier(object):
                     newangle.attrib['class1'] = newclass1
                     newangle.attrib['class2'] = newclass2
                     newangle.attrib['class3'] = newclass3
-                    if newclass1 != oldclass1 and newclass2 != oldclass2 and newclass3 != oldclass3:
-                        # add to regular angleforce
-                        angleforce.append(newangle)
-                    else:
-                        # add to custom_angle_force
-                        custom_angle_force.append(newangle)
-
-        angleforce.addprevious(custom_angle_force)
+                    angleforce.append(newangle)
 
 
-    def customtorsionforce(self, scale_factor, molecule_atom_indices):
+    def addtorsionforce(self, molecule_atom_indices):
+        """
+        """
         torsionforce = self.torsionforce
         root = self.root
         save_index_to_class = self.save_index_to_class
         save_real_classes = self.save_real_classes
-
-        # create the custom torsion
-        custom_torsion_force = root.makeelement('CustomTorsionForce', attrib={})
-        custom_torsion_force.attrib['energy'] = scale_factor+"*k*(1+cos(periodicity*theta-phase))"
-
-        # add subelements for the parameters
-        # CURRENTLY UNSURE ABOUT THE MULTIPLE SETS OF PARAMETERS ISSUE
-        k = custom_torsion_force.makeelement('PerAngleParameter',attrib={'name':"k"})
-        custom_torsion_force.append(k)
-        periodicity = custom_torsion_force.makeelement('PerAngleParameter',attrib={'name':"periodicity"})
-        custom_torsion_force.append(periodicity)
-        phase = custom_torsion_force.makeelement('PerAngleParameter',attrib={'name':"phase"})
-        custom_torsion_force.append(phase) 
 
         for atom1 in self.all_bonds.keys():
             if atom1 not in molecule_atom_indices:
@@ -254,18 +232,14 @@ class XMLmodifier(object):
                         newdihedral.attrib['class2'] = newclass2
                         newdihedral.attrib['class3'] = newclass3
                         newdihedral.attrib['class4'] = newclass4
-                        if newclass1 != oldclass1 and newclass2 != oldclass2 and newclass3 != oldclass3 and newclass4 != oldclass4:
-                            # add to regular torsionforce
-                            torsionforce.append(newdihedral)
-                        else:
-                            # add to custom_torsion_force
-                            custom_torsion_force.append(newdihedral)
-
-        torsionforce.addprevious(custom_torsion_force)
-
+                        torsionforce.append(newdihedral)
 
 
     def customnonbondedforce(self, scale_factor, molecule_atom_indices):
+        """
+        """
+        # NOTE: this will end up being a script element
+
         nonbonded = self.nonbonded
         root = self.root
 
@@ -279,15 +253,4 @@ class XMLmodifier(object):
             if idx not in range(start_index, end_index):
                 custom_nonbonded_force.remove(nonbonded_particle)
         nonbonded.addprevious(custom_nonbonded_force)
-
-
-
-
-
-
-
-
-
-
-
 
